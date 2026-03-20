@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Search, X } from "lucide-react";
+import { ENTITY_COLORS, EntityType } from "@/lib/graph-data";
 
 interface SearchInputProps {
   value: string;
@@ -68,13 +69,14 @@ export function SearchInput({
       <div
         className={cn(
           "flex items-center gap-3",
-          "h-14 px-4 rounded-full",
-          "bg-[var(--md-surface-container-highest)]",
+          "h-10 px-4 rounded-xl",
+          "bg-[var(--md-surface-container-high)]/60",
+          "border border-[var(--md-outline-variant)]/30",
           "transition-all duration-200",
-          isFocused && "shadow-[var(--shadow-2)]"
+          isFocused && "bg-[var(--md-surface-container-highest)] border-[var(--md-primary)]/50 shadow-lg"
         )}
       >
-        <Search className="h-5 w-5 text-[var(--md-on-surface-variant)]" />
+        <Search className="h-4 w-4 text-[var(--md-on-surface-variant)]" />
         <input
           ref={inputRef}
           type="text"
@@ -86,8 +88,8 @@ export function SearchInput({
           placeholder={placeholder}
           className={cn(
             "flex-1 bg-transparent outline-none",
-            "body-large text-[var(--md-on-surface)]",
-            "placeholder:text-[var(--md-on-surface-variant)]"
+            "text-sm text-[var(--md-on-surface)]",
+            "placeholder:text-[var(--md-on-surface-variant)]/60"
           )}
         />
         {value && (
@@ -97,11 +99,12 @@ export function SearchInput({
               inputRef.current?.focus();
             }}
             className={cn(
-              "state-layer flex h-8 w-8 items-center justify-center rounded-full",
-              "text-[var(--md-on-surface-variant)] hover:text-[var(--md-on-surface)]"
+              "flex h-6 w-6 items-center justify-center rounded-full",
+              "text-[var(--md-on-surface-variant)] hover:text-[var(--md-on-surface)]",
+              "hover:bg-[var(--md-surface-container)] transition-colors"
             )}
           >
-            <X className="h-5 w-5" />
+            <X className="h-3.5 w-3.5" />
           </button>
         )}
       </div>
@@ -111,11 +114,12 @@ export function SearchInput({
         <ul
           ref={listRef}
           className={cn(
-            "absolute top-full left-0 right-0 mt-2 py-2 z-50",
-            "rounded-[var(--radius-md)]",
-            "bg-[var(--md-surface-container)]",
-            "shadow-[var(--shadow-2)]",
-            "max-h-64 overflow-auto"
+            "absolute top-full left-0 right-0 mt-2 py-1.5 z-50",
+            "rounded-xl",
+            "bg-[var(--md-surface-container-high)]/95 backdrop-blur-xl",
+            "border border-[var(--md-outline-variant)]/20",
+            "shadow-xl",
+            "max-h-72 overflow-auto"
           )}
         >
           {suggestions.slice(0, 8).map((suggestion, index) => (
@@ -127,18 +131,25 @@ export function SearchInput({
                   setIsFocused(false);
                 }}
                 className={cn(
-                  "w-full flex items-center gap-3 px-4 py-3",
+                  "w-full flex items-center gap-3 px-4 py-2.5",
                   "text-left transition-colors",
                   highlightedIndex === index
                     ? "bg-[var(--md-surface-container-highest)]"
-                    : "hover:bg-[var(--md-surface-container-high)]"
+                    : "hover:bg-[var(--md-surface-container)]"
                 )}
               >
-                <span className="body-large text-[var(--md-on-surface)]">
+                {/* Type indicator dot */}
+                {suggestion.type && (
+                  <span 
+                    className="w-2 h-2 rounded-full flex-shrink-0"
+                    style={{ backgroundColor: ENTITY_COLORS[suggestion.type as EntityType] || 'var(--md-outline)' }}
+                  />
+                )}
+                <span className="text-sm text-[var(--md-on-surface)] truncate">
                   {suggestion.label}
                 </span>
                 {suggestion.type && (
-                  <span className="label-small text-[var(--md-on-surface-variant)] ml-auto capitalize">
+                  <span className="text-[10px] uppercase tracking-wider text-[var(--md-on-surface-variant)] ml-auto flex-shrink-0">
                     {suggestion.type}
                   </span>
                 )}

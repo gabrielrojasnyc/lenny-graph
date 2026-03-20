@@ -23,28 +23,33 @@ export function Chip({
     <button
       onClick={onClick}
       className={cn(
-        "state-layer inline-flex items-center gap-2",
-        "h-8 px-4 rounded-[var(--radius-sm)]",
-        "label-large transition-all duration-200",
-        "border",
+        "chip-refined inline-flex items-center gap-2",
+        "h-9 px-4 rounded-full",
+        "text-sm font-medium tracking-wide",
+        "transition-all duration-200 ease-out",
+        "border border-transparent",
         selected
-          ? "bg-[var(--md-secondary-container)] text-[var(--md-on-secondary-container)] border-transparent"
-          : "bg-transparent text-[var(--md-on-surface-variant)] border-[var(--md-outline)]",
-        "hover:shadow-[var(--shadow-1)]",
+          ? "text-white shadow-md"
+          : "bg-[var(--md-surface-container-high)]/60 text-[var(--md-on-surface-variant)] border-[var(--md-outline-variant)]/50",
+        "hover:scale-[1.02] active:scale-[0.98]",
         className
       )}
       style={
-        color && selected
+        selected && color
           ? {
               backgroundColor: color,
-              color: "#fff",
-              borderColor: "transparent",
+              boxShadow: `0 4px 14px -3px ${color}60`,
+            }
+          : selected
+          ? {
+              backgroundColor: "var(--md-primary)",
+              boxShadow: "0 4px 14px -3px var(--md-primary)",
             }
           : undefined
       }
     >
-      {icon && <span className="w-4 h-4">{icon}</span>}
-      {label}
+      {icon && <span className="w-4 h-4 opacity-80">{icon}</span>}
+      <span>{label}</span>
     </button>
   );
 }

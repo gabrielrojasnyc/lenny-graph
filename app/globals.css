@@ -24,23 +24,23 @@
   --shadow-4: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
   --shadow-5: 0 8px 12px 6px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.3);
 
-  /* Entity Colors (consistent across themes) */
-  --color-entity-person: #818CF8;
-  --color-entity-company: #34D399;
-  --color-entity-book: #FBBF24;
-  --color-entity-concept: #F472B6;
+  /* Entity Colors - Sophisticated muted palette */
+  --color-entity-person: #7C9EB2;
+  --color-entity-company: #6B9B7A;
+  --color-entity-book: #C4956A;
+  --color-entity-concept: #9B7AA0;
 
-  /* Topic Colors */
-  --color-topic-ai: #818CF8;
-  --color-topic-growth: #34D399;
-  --color-topic-product: #60A5FA;
-  --color-topic-leadership: #F472B6;
-  --color-topic-culture: #FBBF24;
-  --color-topic-strategy: #A78BFA;
-  --color-topic-hiring: #2DD4BF;
-  --color-topic-metrics: #FB923C;
-  --color-topic-psychology: #E879F9;
-  --color-topic-fundraising: #4ADE80;
+  /* Topic Colors - Refined palette */
+  --color-topic-ai: #6B8AAE;
+  --color-topic-growth: #6B9B7A;
+  --color-topic-product: #7BA3C4;
+  --color-topic-leadership: #B07A8A;
+  --color-topic-culture: #C4A86B;
+  --color-topic-strategy: #8B7AAE;
+  --color-topic-hiring: #6B9B9B;
+  --color-topic-metrics: #C4886B;
+  --color-topic-psychology: #A07AAE;
+  --color-topic-fundraising: #7A9B6B;
 }
 
 :root {
@@ -339,4 +339,32 @@ body {
 :focus-visible {
   outline: 2px solid var(--md-primary);
   outline-offset: 2px;
+}
+
+/* Graph node glow effect */
+.node-glow {
+  filter: drop-shadow(0 0 6px currentColor);
+}
+
+/* Smooth label appearance */
+.graph-label {
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
+.graph-label.visible {
+  opacity: 1;
+}
+
+/* Glassmorphism card */
+.glass-card {
+  background: rgba(var(--md-surface-container-rgb, 33, 31, 38), 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Refined chip hover */
+.chip-refined {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }

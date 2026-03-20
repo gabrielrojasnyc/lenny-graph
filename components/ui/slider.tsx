@@ -26,23 +26,26 @@ export function Slider({
   return (
     <div className={cn("w-full", className)}>
       {label && (
-        <div className="flex items-center justify-between mb-2">
-          <span className="label-medium text-[var(--md-on-surface-variant)]">
+        <div className="flex items-center justify-between mb-3">
+          <span className="text-xs font-medium uppercase tracking-wider text-[var(--md-on-surface-variant)]">
             {label}
           </span>
-          <span className="label-medium text-[var(--md-on-surface)]">
+          <span className="text-sm font-semibold text-[var(--md-on-surface)] tabular-nums">
             {formatValue ? formatValue(value) : value}
           </span>
         </div>
       )}
-      <div className="relative h-10 flex items-center">
+      <div className="relative h-6 flex items-center">
         {/* Track background */}
-        <div className="absolute w-full h-1 bg-[var(--md-surface-container-highest)] rounded-full" />
+        <div className="absolute w-full h-1.5 bg-[var(--md-surface-container-highest)]/50 rounded-full" />
         
-        {/* Active track */}
+        {/* Active track with gradient */}
         <div
-          className="absolute h-1 bg-[var(--md-primary)] rounded-full"
-          style={{ width: `${percentage}%` }}
+          className="absolute h-1.5 rounded-full"
+          style={{ 
+            width: `${percentage}%`,
+            background: 'linear-gradient(90deg, var(--md-primary), var(--md-tertiary))'
+          }}
         />
 
         {/* Input */}
@@ -52,23 +55,19 @@ export function Slider({
           max={max}
           value={value}
           onChange={(e) => onChange(Number(e.target.value))}
-          className={cn(
-            "absolute w-full h-10 opacity-0 cursor-pointer",
-            "z-10"
-          )}
+          className="absolute w-full h-6 opacity-0 cursor-pointer z-10"
         />
 
         {/* Thumb */}
         <div
           className={cn(
-            "absolute w-5 h-5 rounded-full",
-            "bg-[var(--md-primary)]",
-            "shadow-[var(--shadow-1)]",
+            "absolute w-4 h-4 rounded-full",
+            "bg-white border-2 border-[var(--md-primary)]",
+            "shadow-md",
             "pointer-events-none",
-            "transition-transform duration-100",
-            "hover:scale-110"
+            "transition-all duration-150 ease-out"
           )}
-          style={{ left: `calc(${percentage}% - 10px)` }}
+          style={{ left: `calc(${percentage}% - 8px)` }}
         />
       </div>
     </div>

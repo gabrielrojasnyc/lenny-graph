@@ -1,6 +1,6 @@
 "use client";
 
-import { X, User, Building2, BookOpen, Lightbulb, Link } from "lucide-react";
+import { X, User, Building2, BookOpen, Lightbulb, ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import {
   GraphData,
@@ -10,8 +10,8 @@ import {
   getNodeName,
 } from "@/lib/graph-data";
 
-const EntityIcon = ({ type }: { type: EntityType }) => {
-  const iconProps = { className: "h-5 w-5" };
+const EntityIcon = ({ type, className }: { type: EntityType; className?: string }) => {
+  const iconProps = { className: cn("h-5 w-5", className) };
   switch (type) {
     case "person":
       return <User {...iconProps} />;
@@ -67,98 +67,109 @@ export function NodeDetails({
       className={cn(
         "absolute top-4 right-4 z-10",
         "w-80 max-h-[calc(100%-2rem)]",
-        "rounded-[var(--radius-lg)]",
-        "bg-[var(--md-surface-container)]",
-        "shadow-[var(--shadow-3)]",
+        "rounded-2xl",
+        "bg-[var(--md-surface-container)]/95 backdrop-blur-xl",
+        "border border-[var(--md-outline-variant)]/20",
+        "shadow-2xl",
         "overflow-hidden flex flex-col"
       )}
     >
       {/* Header */}
-      <div
-        className="flex items-start gap-3 p-4 border-b border-[var(--md-outline-variant)]"
-        style={{ backgroundColor: ENTITY_COLORS[node.type] + "20" }}
-      >
-        <div
-          className="flex items-center justify-center w-10 h-10 rounded-full"
-          style={{ backgroundColor: ENTITY_COLORS[node.type] }}
-        >
-          <EntityIcon type={node.type} />
+      <div className="relative p-5">
+        {/* Background gradient */}
+        <div 
+          className="absolute inset-0 opacity-10"
+          style={{ 
+            background: `linear-gradient(135deg, ${ENTITY_COLORS[node.type]}, transparent)` 
+          }}
+        />
+        
+        <div className="relative flex items-start gap-4">
+          <div
+            className="flex items-center justify-center w-12 h-12 rounded-2xl text-white shadow-lg"
+            style={{ 
+              backgroundColor: ENTITY_COLORS[node.type],
+              boxShadow: `0 8px 20px -4px ${ENTITY_COLORS[node.type]}60`
+            }}
+          >
+            <EntityIcon type={node.type} />
+          </div>
+          <div className="flex-1 min-w-0">
+            <h3 className="font-semibold text-[var(--md-on-surface)] truncate">
+              {getNodeName(node)}
+            </h3>
+            <p className="text-xs text-[var(--md-on-surface-variant)] capitalize mt-0.5">
+              {node.type}
+            </p>
+          </div>
+          <button
+            onClick={onClose}
+            className={cn(
+              "flex h-8 w-8 items-center justify-center rounded-full",
+              "text-[var(--md-on-surface-variant)] hover:text-[var(--md-on-surface)]",
+              "hover:bg-[var(--md-surface-container-high)] transition-colors"
+            )}
+          >
+            <X className="h-4 w-4" />
+          </button>
         </div>
-        <div className="flex-1 min-w-0">
-          <h3 className="title-medium text-[var(--md-on-surface)] truncate">
-            {getNodeName(node)}
-          </h3>
-          <p className="label-medium text-[var(--md-on-surface-variant)] capitalize">
-            {node.type}
-          </p>
-        </div>
-        <button
-          onClick={onClose}
-          className={cn(
-            "state-layer flex h-8 w-8 items-center justify-center rounded-full",
-            "text-[var(--md-on-surface-variant)] hover:text-[var(--md-on-surface)]"
-          )}
-        >
-          <X className="h-5 w-5" />
-        </button>
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-2 gap-4 p-4 border-b border-[var(--md-outline-variant)]">
-        <div>
-          <p className="headline-small text-[var(--md-on-surface)]">
+      <div className="grid grid-cols-2 gap-3 px-5 pb-4">
+        <div className="p-3 rounded-xl bg-[var(--md-surface-container-high)]/50">
+          <p className="text-2xl font-bold text-[var(--md-on-surface)]">
             {connections.length}
           </p>
-          <p className="body-small text-[var(--md-on-surface-variant)]">
+          <p className="text-[10px] uppercase tracking-wider text-[var(--md-on-surface-variant)]">
             Connections
           </p>
         </div>
-        <div>
-          <p className="headline-small text-[var(--md-on-surface)]">
+        <div className="p-3 rounded-xl bg-[var(--md-surface-container-high)]/50">
+          <p className="text-2xl font-bold text-[var(--md-on-surface)]">
             {node.episodes?.length || 0}
           </p>
-          <p className="body-small text-[var(--md-on-surface-variant)]">
+          <p className="text-[10px] uppercase tracking-wider text-[var(--md-on-surface-variant)]">
             Episodes
           </p>
         </div>
       </div>
 
       {/* Connections list */}
-      <div className="flex-1 overflow-auto p-4">
-        <h4 className="label-large text-[var(--md-on-surface-variant)] mb-3 flex items-center gap-2">
-          <Link className="h-4 w-4" />
-          Related
+      <div className="flex-1 overflow-auto px-5 pb-5">
+        <h4 className="text-[10px] uppercase tracking-wider text-[var(--md-on-surface-variant)] mb-3">
+          Related entities
         </h4>
         <div className="space-y-4">
           {Object.entries(connectionsByType).map(([type, conns]) => (
             <div key={type}>
-              <p className="label-small text-[var(--md-on-surface-variant)] mb-2 capitalize">
-                {type}s ({conns.length})
+              <p className="text-xs font-medium text-[var(--md-on-surface-variant)] mb-2 capitalize flex items-center gap-2">
+                <span 
+                  className="w-2 h-2 rounded-full"
+                  style={{ backgroundColor: ENTITY_COLORS[type as EntityType] }}
+                />
+                {type}s
+                <span className="text-[var(--md-outline)]">({conns.length})</span>
               </p>
-              <div className="space-y-1">
+              <div className="space-y-0.5">
                 {conns.slice(0, 5).map((conn) => (
                   <button
                     key={conn.id}
                     onClick={() => onNodeSelect(conn.id)}
                     className={cn(
-                      "state-layer w-full flex items-center gap-2 px-3 py-2 rounded-[var(--radius-sm)]",
-                      "text-left hover:bg-[var(--md-surface-container-high)]"
+                      "w-full flex items-center gap-2 px-3 py-2 rounded-lg",
+                      "text-left group",
+                      "hover:bg-[var(--md-surface-container-high)] transition-colors"
                     )}
                   >
-                    <div
-                      className="w-2 h-2 rounded-full"
-                      style={{ backgroundColor: ENTITY_COLORS[conn.node!.type] }}
-                    />
-                    <span className="body-medium text-[var(--md-on-surface)] truncate flex-1">
+                    <span className="text-sm text-[var(--md-on-surface)] truncate flex-1">
                       {getNodeName(conn.node!)}
                     </span>
-                    <span className="label-small text-[var(--md-on-surface-variant)]">
-                      {conn.weight}
-                    </span>
+                    <ArrowRight className="h-3.5 w-3.5 text-[var(--md-on-surface-variant)] opacity-0 group-hover:opacity-100 transition-opacity" />
                   </button>
                 ))}
                 {conns.length > 5 && (
-                  <p className="body-small text-[var(--md-on-surface-variant)] px-3 py-1">
+                  <p className="text-xs text-[var(--md-on-surface-variant)] px-3 py-1">
                     +{conns.length - 5} more
                   </p>
                 )}

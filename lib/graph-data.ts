@@ -34,11 +34,12 @@ export interface PathsIndex {
   [nodeId: string]: string[];
 }
 
+// Sophisticated muted color palette
 export const ENTITY_COLORS: Record<EntityType, string> = {
-  person: "var(--color-entity-person)",
-  company: "var(--color-entity-company)",
-  book: "var(--color-entity-book)",
-  concept: "var(--color-entity-concept)",
+  person: "#7C9EB2",    // Slate blue
+  company: "#6B9B7A",   // Sage green
+  book: "#C4956A",      // Warm terracotta
+  concept: "#9B7AA0",   // Dusty purple
 };
 
 export const ENTITY_LABELS: Record<EntityType, string> = {
@@ -48,17 +49,18 @@ export const ENTITY_LABELS: Record<EntityType, string> = {
   concept: "Concepts",
 };
 
+// Refined topic color palette
 export const TOPIC_COLORS: Record<string, string> = {
-  "AI & ML": "var(--color-topic-ai)",
-  "Growth & Marketing": "var(--color-topic-growth)",
-  "Product Management": "var(--color-topic-product)",
-  "Leadership & Management": "var(--color-topic-leadership)",
-  "Company Culture": "var(--color-topic-culture)",
-  "Strategy & Business": "var(--color-topic-strategy)",
-  "Hiring & Talent": "var(--color-topic-hiring)",
-  "Metrics & Analytics": "var(--color-topic-metrics)",
-  "Psychology & Behavior": "var(--color-topic-psychology)",
-  "Fundraising & Finance": "var(--color-topic-fundraising)",
+  "AI & ML": "#6B8AAE",
+  "Growth & Marketing": "#6B9B7A",
+  "Product Management": "#7BA3C4",
+  "Leadership & Management": "#B07A8A",
+  "Company Culture": "#C4A86B",
+  "Strategy & Business": "#8B7AAE",
+  "Hiring & Talent": "#6B9B9B",
+  "Metrics & Analytics": "#C4886B",
+  "Psychology & Behavior": "#A07AAE",
+  "Fundraising & Finance": "#7A9B6B",
 };
 
 export async function loadGraphData(): Promise<GraphData> {

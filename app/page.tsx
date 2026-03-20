@@ -15,7 +15,7 @@ import {
   getNodeName,
 } from "@/lib/graph-data";
 import { cn } from "@/lib/utils";
-import { RotateCcw } from "lucide-react";
+import { RotateCcw, ZoomIn, ZoomOut } from "lucide-react";
 
 export default function GraphPage() {
   const [data, setData] = useState<GraphData | null>(null);
@@ -62,7 +62,6 @@ export default function GraphPage() {
   const handleSearchSelect = (nodeId: string) => {
     setSearchHighlight(nodeId);
     setSelectedNode(nodeId);
-    // Clear highlight after animation
     setTimeout(() => setSearchHighlight(null), 2000);
   };
 
@@ -81,12 +80,20 @@ export default function GraphPage() {
 
   if (loading) {
     return (
-      <div className="flex-1 flex items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
-          <div className="w-12 h-12 rounded-full border-4 border-[var(--md-primary)] border-t-transparent animate-spin" />
-          <p className="body-large text-[var(--md-on-surface-variant)]">
-            Loading knowledge graph...
-          </p>
+      <div className="flex-1 flex items-center justify-center bg-[var(--md-surface)]">
+        <div className="flex flex-col items-center gap-6">
+          <div className="relative">
+            <div className="w-16 h-16 rounded-full border-2 border-[var(--md-primary)]/20" />
+            <div className="absolute inset-0 w-16 h-16 rounded-full border-2 border-[var(--md-primary)] border-t-transparent animate-spin" />
+          </div>
+          <div className="text-center">
+            <p className="title-medium text-[var(--md-on-surface)]">
+              Loading Knowledge Graph
+            </p>
+            <p className="body-small text-[var(--md-on-surface-variant)] mt-1">
+              Preparing 530 nodes and 6,765 connections...
+            </p>
+          </div>
         </div>
       </div>
     );
@@ -108,12 +115,12 @@ export default function GraphPage() {
         />
       </TopAppBar>
 
-      {/* Controls bar */}
+      {/* Controls bar - refined styling */}
       <div
         className={cn(
-          "flex flex-wrap items-center gap-4 px-4 md:px-6 py-3",
-          "bg-[var(--md-surface-container-low)]",
-          "border-b border-[var(--md-outline-variant)]"
+          "flex flex-wrap items-center gap-4 px-4 md:px-6 py-4",
+          "bg-[var(--md-surface-container)]/50 backdrop-blur-sm",
+          "border-b border-[var(--md-outline-variant)]/30"
         )}
       >
         {/* Mobile search */}
@@ -134,7 +141,7 @@ export default function GraphPage() {
 
         <div className="flex-1" />
 
-        <div className="w-48">
+        <div className="w-52 hidden sm:block">
           <Slider
             value={yearRange}
             min={2019}
@@ -147,7 +154,19 @@ export default function GraphPage() {
       </div>
 
       {/* Graph area */}
-      <div className="flex-1 relative overflow-hidden">
+      <div className="flex-1 relative overflow-hidden bg-gradient-to-br from-[var(--md-surface)] via-[var(--md-surface-container-lowest)] to-[var(--md-surface)]">
+        {/* Subtle grid pattern */}
+        <div 
+          className="absolute inset-0 opacity-[0.015]"
+          style={{
+            backgroundImage: `
+              linear-gradient(var(--md-outline-variant) 1px, transparent 1px),
+              linear-gradient(90deg, var(--md-outline-variant) 1px, transparent 1px)
+            `,
+            backgroundSize: '60px 60px'
+          }}
+        />
+        
         {data && (
           <ForceGraph
             data={data}
@@ -170,22 +189,35 @@ export default function GraphPage() {
           />
         )}
 
-        {/* FAB controls */}
-        <div className="absolute bottom-6 right-6 flex flex-col gap-2">
+        {/* FAB controls - refined */}
+        <div className="absolute bottom-6 right-6 flex flex-col gap-3">
           <button
             onClick={handleReset}
             className={cn(
-              "state-layer flex h-14 w-14 items-center justify-center",
-              "rounded-[var(--radius-lg)]",
-              "bg-[var(--md-primary-container)] text-[var(--md-on-primary-container)]",
-              "shadow-[var(--shadow-3)]",
-              "hover:shadow-[var(--shadow-4)]",
-              "transition-shadow duration-200"
+              "flex h-14 w-14 items-center justify-center",
+              "rounded-2xl",
+              "bg-[var(--md-surface-container-high)] text-[var(--md-on-surface)]",
+              "border border-[var(--md-outline-variant)]/30",
+              "shadow-lg hover:shadow-xl",
+              "transition-all duration-200",
+              "hover:scale-105 active:scale-95"
             )}
             title="Reset view"
           >
-            <RotateCcw className="h-6 w-6" />
+            <RotateCcw className="h-5 w-5" />
           </button>
+        </div>
+
+        {/* Stats badge */}
+        <div className="absolute bottom-6 left-6 hidden md:block">
+          <div className="glass-card rounded-xl px-4 py-3 border border-[var(--md-outline-variant)]/20">
+            <p className="label-small text-[var(--md-on-surface-variant)]">
+              Showing {visibleTypes.length} of 4 entity types
+            </p>
+            <p className="body-small text-[var(--md-on-surface)] mt-0.5">
+              {data?.nodes.filter(n => visibleTypes.includes(n.type)).length || 0} visible nodes
+            </p>
+          </div>
         </div>
       </div>
     </>
