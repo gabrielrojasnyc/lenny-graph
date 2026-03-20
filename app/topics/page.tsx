@@ -7,25 +7,30 @@ import { StreamChart } from "@/components/topics/stream-chart";
 import { TopicLegend } from "@/components/topics/topic-legend";
 import {
   TopicTimelineEntry,
+  TopicTimelineData,
   TOPIC_COLORS,
   loadTopicTimeline,
 } from "@/lib/graph-data";
 import { cn } from "@/lib/utils";
 import { TrendingUp } from "lucide-react";
 
-const allTopics = Object.keys(TOPIC_COLORS);
-
 export default function TopicsPage() {
-  const [data, setData] = useState<TopicTimelineEntry[]>([]);
+  const [data, setData] = useState<TopicTimelineData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [visibleTopics, setVisibleTopics] = useState<string[]>(allTopics);
+  const [visibleTopics, setVisibleTopics] = useState<string[]>([]);
   const [hoveredTopic, setHoveredTopic] = useState<string | null>(null);
   const [hoveredEpisode, setHoveredEpisode] =
     useState<TopicTimelineEntry | null>(null);
 
   useEffect(() => {
     loadTopicTimeline()
-      .then(setData)
+      .then((timelineData) => {
+        setData(timelineData);
+        // Initialize visible topics from actual data categories
+        if (timelineData.categories) {
+          setVisibleTopics(timelineData.categories);
+        }
+      })
       .finally(() => setLoading(false));
   }, []);
 
@@ -43,7 +48,7 @@ export default function TopicsPage() {
     []
   );
 
-  if (loading) {
+  if (loading || !data) {
     return (
       <div className="flex-1 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
@@ -56,11 +61,14 @@ export default function TopicsPage() {
     );
   }
 
+  const episodes = data.episodes || [];
+  const categories = data.categories || [];
+
   return (
     <>
       <TopAppBar
         title="Topic DNA"
-        subtitle={`Topic evolution across ${data.length} episodes`}
+        subtitle={`Topic evolution across ${episodes.length} episodes`}
       />
 
       <div className="flex-1 flex flex-col overflow-hidden">
@@ -83,7 +91,7 @@ export default function TopicsPage() {
                 <p className="body-medium text-[var(--md-on-surface-variant)]">
                   This streamgraph shows how discussion topics have shifted over
                   time. Notice the explosion of AI/ML content in late 2024 and
-                  the consistent focus on Product Management throughout.
+                  the consistent focus on Product throughout.
                 </p>
               </div>
             </div>
@@ -95,15 +103,17 @@ export default function TopicsPage() {
           <TopicLegend
             visibleTopics={visibleTopics}
             onToggleTopic={handleToggleTopic}
+            allTopics={categories}
           />
         </div>
 
         {/* Chart area */}
         <div className="flex-1 relative p-4 md:p-6">
           <StreamChart
-            data={data}
+            data={episodes}
             visibleTopics={visibleTopics}
             onTopicHover={handleTopicHover}
+            allTopics={categories}
           />
 
           {/* Hover tooltip */}
@@ -119,7 +129,7 @@ export default function TopicsPage() {
               <div className="flex items-center gap-2 mb-2">
                 <div
                   className="w-3 h-3 rounded-full"
-                  style={{ backgroundColor: TOPIC_COLORS[hoveredTopic] }}
+                  style={{ backgroundColor: TOPIC_COLORS[hoveredTopic] || "#888" }}
                 />
                 <span className="label-large text-[var(--md-on-surface)]">
                   {hoveredTopic}
@@ -129,7 +139,7 @@ export default function TopicsPage() {
                 {hoveredEpisode.title}
               </p>
               <p className="body-small text-[var(--md-on-surface-variant)]">
-                {hoveredEpisode.episode} ·{" "}
+                {hoveredEpisode.guest && `${hoveredEpisode.guest} · `}
                 {new Date(hoveredEpisode.date).toLocaleDateString("en-US", {
                   year: "numeric",
                   month: "short",
@@ -141,10 +151,7 @@ export default function TopicsPage() {
                   Topic Weight
                 </p>
                 <p className="headline-small text-[var(--md-on-surface)]">
-                  {(
-                    (hoveredEpisode.topics[hoveredTopic] || 0) * 100
-                  ).toFixed(0)}
-                  %
+                  {(hoveredEpisode.topics[hoveredTopic] || 0).toFixed(1)}
                 </p>
               </div>
             </Card>
@@ -155,23 +162,23 @@ export default function TopicsPage() {
         <div className="px-4 md:px-6 py-4 border-t border-[var(--md-outline-variant)] bg-[var(--md-surface-container-low)]">
           <div className="flex flex-wrap gap-6">
             {visibleTopics.slice(0, 4).map((topic) => {
-              const totalWeight = data.reduce(
+              const totalWeight = episodes.reduce(
                 (sum, ep) => sum + (ep.topics[topic] || 0),
                 0
               );
-              const avgWeight = totalWeight / data.length;
+              const avgWeight = episodes.length > 0 ? totalWeight / episodes.length : 0;
 
               return (
                 <div key={topic} className="flex items-center gap-2">
                   <div
                     className="w-3 h-3 rounded-full"
-                    style={{ backgroundColor: TOPIC_COLORS[topic] }}
+                    style={{ backgroundColor: TOPIC_COLORS[topic] || "#888" }}
                   />
                   <span className="label-medium text-[var(--md-on-surface-variant)]">
                     {topic}:
                   </span>
                   <span className="label-large text-[var(--md-on-surface)]">
-                    {(avgWeight * 100).toFixed(1)}% avg
+                    {avgWeight.toFixed(1)} avg
                   </span>
                 </div>
               );

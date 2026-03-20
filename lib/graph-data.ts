@@ -24,10 +24,16 @@ export interface GraphData {
 }
 
 export interface TopicTimelineEntry {
-  episode: string;
   date: string;
   title: string;
+  guest?: string;
+  filename?: string;
   topics: Record<string, number>;
+}
+
+export interface TopicTimelineData {
+  categories: string[];
+  episodes: TopicTimelineEntry[];
 }
 
 export interface PathsIndex {
@@ -49,18 +55,18 @@ export const ENTITY_LABELS: Record<EntityType, string> = {
   concept: "Concepts",
 };
 
-// Refined topic color palette
+// Refined topic color palette - matching actual data categories
 export const TOPIC_COLORS: Record<string, string> = {
-  "AI & ML": "#6B8AAE",
-  "Growth & Marketing": "#6B9B7A",
-  "Product Management": "#7BA3C4",
-  "Leadership & Management": "#B07A8A",
-  "Company Culture": "#C4A86B",
-  "Strategy & Business": "#8B7AAE",
-  "Hiring & Talent": "#6B9B9B",
-  "Metrics & Analytics": "#C4886B",
-  "Psychology & Behavior": "#A07AAE",
-  "Fundraising & Finance": "#7A9B6B",
+  "AI/ML": "#6B8AAE",
+  "Growth": "#6B9B7A",
+  "Product": "#7BA3C4",
+  "Leadership": "#B07A8A",
+  "Design & UX": "#C4A86B",
+  "Metrics": "#8B7AAE",
+  "Strategy": "#6B9B9B",
+  "Startups": "#C4886B",
+  "Go-to-Market": "#A07AAE",
+  "Engineering": "#7A9B6B",
 };
 
 export async function loadGraphData(): Promise<GraphData> {
@@ -68,7 +74,7 @@ export async function loadGraphData(): Promise<GraphData> {
   return response.json();
 }
 
-export async function loadTopicTimeline(): Promise<TopicTimelineEntry[]> {
+export async function loadTopicTimeline(): Promise<TopicTimelineData> {
   const response = await fetch("/topic_timeline.json");
   return response.json();
 }

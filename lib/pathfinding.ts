@@ -55,12 +55,21 @@ export function getRandomPair(
   nodes: string[],
   adjacencyList: PathsIndex
 ): [string, string] | null {
+  if (nodes.length < 2) return null;
+  
   const maxAttempts = 100;
   let attempts = 0;
 
   while (attempts < maxAttempts) {
-    const start = nodes[Math.floor(Math.random() * nodes.length)];
-    const end = nodes[Math.floor(Math.random() * nodes.length)];
+    const startIdx = Math.floor(Math.random() * nodes.length);
+    const endIdx = Math.floor(Math.random() * nodes.length);
+    const start = nodes[startIdx];
+    const end = nodes[endIdx];
+    
+    if (!start || !end) {
+      attempts++;
+      continue;
+    }
 
     if (start !== end) {
       const result = findShortestPath(start, end, adjacencyList);

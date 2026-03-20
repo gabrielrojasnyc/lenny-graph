@@ -6,14 +6,14 @@ import { TOPIC_COLORS } from "@/lib/graph-data";
 interface TopicLegendProps {
   visibleTopics: string[];
   onToggleTopic: (topic: string) => void;
+  allTopics: string[];
   className?: string;
 }
-
-const allTopics = Object.keys(TOPIC_COLORS);
 
 export function TopicLegend({
   visibleTopics,
   onToggleTopic,
+  allTopics,
   className,
 }: TopicLegendProps) {
   return (
@@ -24,7 +24,7 @@ export function TopicLegend({
           label={topic}
           selected={visibleTopics.includes(topic)}
           onClick={() => onToggleTopic(topic)}
-          color={TOPIC_COLORS[topic]}
+          color={TOPIC_COLORS[topic] || "#888"}
         />
       ))}
     </ChipGroup>

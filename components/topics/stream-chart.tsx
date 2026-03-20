@@ -7,12 +7,14 @@ import { TopicTimelineEntry, TOPIC_COLORS } from "@/lib/graph-data";
 interface StreamChartProps {
   data: TopicTimelineEntry[];
   visibleTopics: string[];
+  allTopics: string[];
   onTopicHover: (topic: string | null, episode: TopicTimelineEntry | null) => void;
 }
 
 export function StreamChart({
   data,
   visibleTopics,
+  allTopics,
   onTopicHover,
 }: StreamChartProps) {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -24,7 +26,9 @@ export function StreamChart({
     if (!containerRef.current) return;
 
     const resizeObserver = new ResizeObserver((entries) => {
-      const { width, height } = entries[0].contentRect;
+      const entry = entries[0];
+      if (!entry) return;
+      const { width, height } = entry.contentRect;
       setDimensions({ width, height: Math.max(400, height) });
     });
 
@@ -43,8 +47,7 @@ export function StreamChart({
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
 
-    // Get all topic keys
-    const allTopics = Object.keys(TOPIC_COLORS);
+    // Filter to visible topics
     const topics = allTopics.filter((t) => visibleTopics.includes(t));
 
     if (topics.length === 0) return;
@@ -53,8 +56,8 @@ export function StreamChart({
     const stackData = data.map((d) => {
       const entry: Record<string, number | string | Date> = {
         date: new Date(d.date),
-        episode: d.episode,
         title: d.title,
+        guest: d.guest || "",
       };
       topics.forEach((topic) => {
         entry[topic] = d.topics[topic] || 0;
@@ -104,7 +107,7 @@ export function StreamChart({
       .join("path")
       .attr("fill", (d) => {
         const color = TOPIC_COLORS[d.key];
-        return color || "var(--md-outline)";
+        return color || "#888";
       })
       .attr("fill-opacity", 0.8)
       .attr("d", area)
@@ -121,7 +124,9 @@ export function StreamChart({
         const index = bisect(stackData, date);
         const dataPoint = data[Math.min(index, data.length - 1)];
 
-        onTopicHover(d.key, dataPoint);
+        if (dataPoint) {
+          onTopicHover(d.key, dataPoint);
+        }
       })
       .on("mouseleave", function () {
         d3.select(this).attr("fill-opacity", 0.8);
@@ -148,7 +153,7 @@ export function StreamChart({
           .attr("font-size", "12px")
       );
 
-  }, [data, visibleTopics, dimensions, onTopicHover]);
+  }, [data, visibleTopics, allTopics, dimensions, onTopicHover]);
 
   return (
     <div ref={containerRef} className="w-full h-full min-h-[400px]">
