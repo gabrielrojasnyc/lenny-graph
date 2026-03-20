@@ -1,0 +1,5218 @@
+{
+  "categories": [
+    "AI/ML",
+    "Growth",
+    "Product",
+    "Leadership",
+    "Design & UX",
+    "Metrics",
+    "Strategy",
+    "Startups",
+    "Go-to-Market",
+    "Engineering"
+  ],
+  "episodes": [
+    {
+      "date": "2022-06-07",
+      "title": "Julie Zhuo on accelerating your career, impostor syndrome, writing, building product sense, using intuition vs. data, hiring designers, and moving into management",
+      "guest": "Julie Zhuo",
+      "filename": "podcasts/julie-zhuo.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 5.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-06-09",
+      "title": "April Dunford on product positioning, segmentation, and optimizing your sales process",
+      "guest": "April Dunford",
+      "filename": "podcasts/april-dunford.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 11.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 101.0,
+        "Startups": 2.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 7.0
+      }
+    },
+    {
+      "date": "2022-06-13",
+      "title": "Gokul Rajaram on designing your product development process, when and how to hire your first PM, a playbook for hiring leaders, getting ahead in you career, how to get started angel investing, more",
+      "guest": "Gokul Rajaram",
+      "filename": "podcasts/gokul-rajaram.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 14.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 3.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-06-16",
+      "title": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
+      "guest": "Jackie Bavaro",
+      "filename": "podcasts/jackie-bavaro.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 8.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 2.0,
+        "Strategy": 2.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-06-20",
+      "title": "Gibson Biddle on his DHM product strategy framework, GEM roadmap prioritization framework, 5 Netflix strategy mini case studies, building a personal board of directors, and much more",
+      "guest": "Gibson Biddle",
+      "filename": "podcasts/gibson-biddle.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 28.0,
+        "Product": 17.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 11.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2022-06-23",
+      "title": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
+      "guest": "Elena Verna 3.0",
+      "filename": "podcasts/elena-verna-30.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 81.0,
+        "Product": 53.0,
+        "Leadership": 1.0,
+        "Design & UX": 10.0,
+        "Metrics": 10.0,
+        "Strategy": 10.0,
+        "Startups": 5.0,
+        "Go-to-Market": 11.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-06-27",
+      "title": "Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid",
+      "guest": "Brandon Chu",
+      "filename": "podcasts/brandon-chu.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 4.0,
+        "Leadership": 2.0,
+        "Design & UX": 3.0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 7.0
+      }
+    },
+    {
+      "date": "2022-06-30",
+      "title": "Teresa Torres on how to interview customers, automating continuous discovery, the opportunity solution tree framework, making the case for user research, common interviewing mistakes, and much more",
+      "guest": "Teresa Torres",
+      "filename": "podcasts/teresa-torres.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 6.0,
+        "Leadership": 1.0,
+        "Design & UX": 13.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2022-07-05",
+      "title": "Sanchan Saxena (VP of Product at Coinbase) on the inside story of how Airbnb made it through Covid; what he\u2019s learned from Brian Chesky, Brian Armstrong, and Kevin Systrom; much more",
+      "guest": "Sanchan Saxena",
+      "filename": "podcasts/sanchan-saxena.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 9.0,
+        "Leadership": 1.0,
+        "Design & UX": 2.0,
+        "Metrics": 11.0,
+        "Strategy": 3.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-07-11",
+      "title": "Merci Grace (ex-Head of Growth at Slack) on PLG, interviewing, storytelling, building a diverse team, hiring salespeople, building a growth team, and much more",
+      "guest": "Merci Grace",
+      "filename": "podcasts/merci-grace.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 6.0,
+        "Product": 20.0,
+        "Leadership": 0,
+        "Design & UX": 25.0,
+        "Metrics": 2.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2022-07-14",
+      "title": "Manik Gupta (ex-CPO Uber, Google Maps) on how to build consumer apps, why it\u2019s useful to be optimistic about technology, creating inflections in your PM career, the changing CPO role, and more",
+      "guest": "Manik Gupta",
+      "filename": "podcasts/manik-gupta.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 22.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 1.0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-07-18",
+      "title": "Nickey Skarstad (Airbnb, Etsy, Shopify, Duolingo) on translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more",
+      "guest": "Nickey Skarstad",
+      "filename": "podcasts/nickey-skarstad.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 18.0,
+        "Leadership": 23.0,
+        "Design & UX": 4.0,
+        "Metrics": 2.0,
+        "Strategy": 9.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-07-21",
+      "title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
+      "guest": "Casey Winters",
+      "filename": "podcasts/casey-winters.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 7.0,
+        "Product": 15.0,
+        "Leadership": 1.0,
+        "Design & UX": 2.0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 1.0,
+        "Go-to-Market": 4.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2022-07-24",
+      "title": "How to unlock your product leadership skills | Ken Norton, Ex-Google",
+      "guest": "Ken Norton",
+      "filename": "podcasts/ken-norton.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-07-28",
+      "title": "How to create a winning product strategy | Melissa Perri",
+      "guest": "Melissa Perri",
+      "filename": "podcasts/melissa-perri.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 9.0,
+        "Leadership": 2.0,
+        "Design & UX": 2.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 7.0
+      }
+    },
+    {
+      "date": "2022-07-31",
+      "title": "How to scrappily hire for, measure, and unlock growth | Crystal Widjaja, Gojek and Kumu",
+      "guest": "Crystal W",
+      "filename": "podcasts/crystal-w.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 13.0,
+        "Product": 2.0,
+        "Leadership": 6.0,
+        "Design & UX": 8.0,
+        "Metrics": 2.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "title": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
+      "guest": "Deb Liu",
+      "filename": "podcasts/deb-liu.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 2.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 10.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-08-07",
+      "title": "How to launch and grow your product | Ryan Hoover of Product Hunt and Weekend Fund",
+      "guest": "Ryan Hoover",
+      "filename": "podcasts/ryan-hoover.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 7.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2022-08-14",
+      "title": "The rituals of great teams | Shishir Mehrotra of Coda, YouTube, Microsoft",
+      "guest": "Shishir Mehrotra",
+      "filename": "podcasts/shishir-mehrotra.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 9.0,
+        "Product": 3.0,
+        "Leadership": 3.0,
+        "Design & UX": 6.0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-08-18",
+      "title": "The art of building legendary brands | Arielle Jackson (Google, Square, Marketer in Residence at First Round Capital)",
+      "guest": "Arielle Jackson",
+      "filename": "podcasts/arielle-jackson.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 6.0,
+        "Metrics": 1.0,
+        "Strategy": 41.0,
+        "Startups": 1.0,
+        "Go-to-Market": 3.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-08-21",
+      "title": "The nature of product | Marty Cagan, Silicon Valley Product Group",
+      "guest": "Marty Cagan",
+      "filename": "podcasts/marty-cagan.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 5.0,
+        "Leadership": 1.0,
+        "Design & UX": 17.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2022-09-01",
+      "title": "How to grow a subscription business | Yuriy Timen (Grammarly, Canva, Airtable)",
+      "guest": "Yuriy Timen",
+      "filename": "podcasts/yuriy-timen.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 28.0,
+        "Product": 3.0,
+        "Leadership": 3.0,
+        "Design & UX": 14.0,
+        "Metrics": 6.0,
+        "Strategy": 4.0,
+        "Startups": 13.0,
+        "Go-to-Market": 36.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-09-04",
+      "title": "The role of AI in product development | Ryan J. Salva (VP of Product at GitHub, Copilot)",
+      "guest": "Ryan J. Salva",
+      "filename": "podcasts/ryan-j-salva.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 5.0
+      }
+    },
+    {
+      "date": "2022-09-11",
+      "title": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
+      "guest": "Emily Kramer",
+      "filename": "podcasts/emily-kramer.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 6.0,
+        "Leadership": 1.0,
+        "Design & UX": 5.0,
+        "Metrics": 2.0,
+        "Strategy": 13.0,
+        "Startups": 5.0,
+        "Go-to-Market": 8.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-09-15",
+      "title": "When and how to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
+      "guest": "Adam Grenier",
+      "filename": "podcasts/adam-grenier.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 11.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 7.0,
+        "Strategy": 6.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-09-18",
+      "title": "Building a meaningful career | Jason Shah (Airbnb, Amazon, Microsoft, Alchemy)",
+      "guest": "Jason Shah",
+      "filename": "podcasts/jason-shah.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 2.0,
+        "Leadership": 2.0,
+        "Design & UX": 1.0,
+        "Metrics": 1.0,
+        "Strategy": 2.0,
+        "Startups": 2.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2022-09-25",
+      "title": "Growth tactics, retention strategies, and becoming a better writer | Julian Shapiro (Demand Curve, Hyper, Webflow, TechCrunch)",
+      "guest": "Julian Shapiro",
+      "filename": "podcasts/julian-shapiro.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 21.0,
+        "Product": 4.0,
+        "Leadership": 2.0,
+        "Design & UX": 3.0,
+        "Metrics": 7.0,
+        "Strategy": 12.0,
+        "Startups": 0,
+        "Go-to-Market": 5.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2022-09-29",
+      "title": "Customer-led growth | Georgiana Laudi (Forget The Funnel)",
+      "guest": "Gia Laudi",
+      "filename": "podcasts/gia-laudi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 9.0,
+        "Product": 11.0,
+        "Leadership": 0,
+        "Design & UX": 8.0,
+        "Metrics": 2.0,
+        "Strategy": 10.0,
+        "Startups": 3.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-10-02",
+      "title": "Using behavioral science to improve your product | Kristen Berman (Irrational Labs)",
+      "guest": "Kristen Berman",
+      "filename": "podcasts/kristen-berman.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 8.0,
+        "Product": 1.0,
+        "Leadership": 2.0,
+        "Design & UX": 9.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-10-09",
+      "title": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+      "guest": "Dan Hockenmaier",
+      "filename": "podcasts/dan-hockenmaier.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 37.0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 5.0,
+        "Metrics": 28.0,
+        "Strategy": 118.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-10-13",
+      "title": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods)",
+      "guest": "Adam Fishman",
+      "filename": "podcasts/adam-fishman.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 21.0,
+        "Product": 14.0,
+        "Leadership": 1.0,
+        "Design & UX": 41.0,
+        "Metrics": 4.0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-10-16",
+      "title": "Building better product roadmaps | Janna Bastow (Mind the Product, ProdPad)",
+      "guest": "Janna Bastow",
+      "filename": "podcasts/janna-bastow.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 34.0,
+        "Leadership": 2.0,
+        "Design & UX": 18.0,
+        "Metrics": 3.0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-10-20",
+      "title": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
+      "guest": "Adriel Frederick",
+      "filename": "podcasts/adriel-frederick.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 8.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 6.0,
+        "Strategy": 14.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-10-23",
+      "title": "How to build trust and grow as a product leader | Fareed Mosavat (Reforge, Slack, Instacart, Zynga, Pixar)",
+      "guest": "Fareed Mosavat",
+      "filename": "podcasts/fareed-mosavat.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 8.0,
+        "Product": 5.0,
+        "Leadership": 6.0,
+        "Design & UX": 3.0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2022-10-27",
+      "title": "Category creation and brand building | Barbra Gago (Pando, Miro, Greenhouse, Culture Amp)",
+      "guest": "Barbra Gago",
+      "filename": "podcasts/barbra-gago.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2022-10-30",
+      "title": "Building Substack | Sachin Monga (Substack, Facebook)",
+      "guest": "Sachin Monga",
+      "filename": "podcasts/sachin-monga.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 7.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 2.0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-11-03",
+      "title": "Lessons from one of the world\u2019s top executive recruiters | Lauren Ipsen (Daversa Partners, General Catalyst)",
+      "guest": "Lauren Ipsen",
+      "filename": "podcasts/lauren-ipsen.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 4.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-11-06",
+      "title": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+      "guest": "Ben Williams",
+      "filename": "podcasts/ben-williams.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 40.0,
+        "Product": 30.0,
+        "Leadership": 2.0,
+        "Design & UX": 7.0,
+        "Metrics": 12.0,
+        "Strategy": 1.0,
+        "Startups": 5.0,
+        "Go-to-Market": 11.0,
+        "Engineering": 15.0
+      }
+    },
+    {
+      "date": "2022-11-10",
+      "title": "How to fire people with grace, work through fear, and nurture innovation | Matt Mochary (CEO coach)",
+      "guest": "Matt Mochary",
+      "filename": "podcasts/matt-mochary.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-11-13",
+      "title": "Alex Hardimen",
+      "guest": "Alex Hardimen",
+      "filename": "podcasts/alex-hardimen.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 3.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-11-17",
+      "title": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
+      "guest": "Gergely",
+      "filename": "podcasts/gergely.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-11-20",
+      "title": "What it takes to become a top 1% PM | Ian McAllister (Uber, Amazon, Airbnb)",
+      "guest": "Ian McAllister",
+      "filename": "podcasts/ian-mcallister.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 12.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-11-27",
+      "title": "How to be the best coach to product people | Petra Wille (Strong Product People)",
+      "guest": "Petra Wille",
+      "filename": "podcasts/petra-wille.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 8.0,
+        "Leadership": 0,
+        "Design & UX": 5.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-12-04",
+      "title": "How to hit revenue targets in a recession | Sahil Mansuri (Bravado)",
+      "guest": "Sahil Mansuri",
+      "filename": "podcasts/sahil-mansuri.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 10.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 1.0,
+        "Strategy": 5.0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-12-11",
+      "title": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
+      "guest": "Camille Ricketts",
+      "filename": "podcasts/camille-ricketts.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 12.0,
+        "Leadership": 2.0,
+        "Design & UX": 3.0,
+        "Metrics": 0,
+        "Strategy": 2.0,
+        "Startups": 4.0,
+        "Go-to-Market": 5.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-12-15",
+      "title": "Founder-led sales | Pete Kazanjy (Founding Sales, Atrium)",
+      "guest": "Pete Kazanjy",
+      "filename": "podcasts/pete-kazanjy.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 10.0,
+        "Leadership": 0,
+        "Design & UX": 4.0,
+        "Metrics": 4.0,
+        "Strategy": 10.0,
+        "Startups": 7.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2022-12-18",
+      "title": "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)",
+      "guest": "Chris Hutchins",
+      "filename": "podcasts/chris-hutchins.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 5.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2022-12-29",
+      "title": "EOY Review",
+      "guest": "EOY Review",
+      "filename": "podcasts/eoy-review.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 9.0,
+        "Product": 1.0,
+        "Leadership": 3.0,
+        "Design & UX": 2.0,
+        "Metrics": 1.0,
+        "Strategy": 11.0,
+        "Startups": 3.0,
+        "Go-to-Market": 16.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-01-05",
+      "title": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+      "guest": "Jules Walter",
+      "filename": "podcasts/jules-walter.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 10.0,
+        "Product": 7.0,
+        "Leadership": 6.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-01-08",
+      "title": "Yuhki Yamashata",
+      "guest": "Yuhki Yamashata",
+      "filename": "podcasts/yuhki-yamashata.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 2.0,
+        "Leadership": 19.0,
+        "Design & UX": 7.0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-01-12",
+      "title": "How to price your product | Naomi Ionita (Menlo Ventures)",
+      "guest": "Naomi Ionita",
+      "filename": "podcasts/naomi-ionita.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 10.0,
+        "Product": 22.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 13.0,
+        "Strategy": 59.0,
+        "Startups": 7.0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-01-15",
+      "title": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
+      "guest": "John Cutler",
+      "filename": "podcasts/john-cutler.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 6.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 8.0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-01-26",
+      "title": "An inside look at Mixpanel\u2019s product journey | Vijay Iyengar (Head of Product)",
+      "guest": "Vijay",
+      "filename": "podcasts/vijay.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 9.0,
+        "Product": 9.0,
+        "Leadership": 2.0,
+        "Design & UX": 1.0,
+        "Metrics": 2.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-01-29",
+      "title": "Lessons from Airtable\u2019s unconventional growth strategy | Zoelle Egner",
+      "guest": "Zoelle Egner",
+      "filename": "podcasts/zoelle-egner.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 9.0,
+        "Product": 5.0,
+        "Leadership": 4.0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 8.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2023-02-02",
+      "title": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
+      "guest": "Eeke de Milliano",
+      "filename": "podcasts/eeke-de-milliano.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 17.0,
+        "Leadership": 4.0,
+        "Design & UX": 4.0,
+        "Metrics": 0,
+        "Strategy": 8.0,
+        "Startups": 1.0,
+        "Go-to-Market": 3.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2023-02-05",
+      "title": "AI and product management | Marily Nika (Meta, Google)",
+      "guest": "Marily Nika",
+      "filename": "podcasts/marily-nika.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 2.0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-02-09",
+      "title": "Leading with empathy | Keith Yandell (DoorDash, Uber)",
+      "guest": "Keith Yandell",
+      "filename": "podcasts/keith-yandell.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 3.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 3.0,
+        "Strategy": 1.0,
+        "Startups": 5.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-02-12",
+      "title": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+      "guest": "Lauryn Isford",
+      "filename": "podcasts/lauryn-isford.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 60.0,
+        "Product": 17.0,
+        "Leadership": 0,
+        "Design & UX": 53.0,
+        "Metrics": 26.0,
+        "Strategy": 10.0,
+        "Startups": 12.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-02-16",
+      "title": "Understanding the role of product ops | Christine Itwaru (Pendo)",
+      "guest": "Christine Itwaru",
+      "filename": "podcasts/christine-itwaru.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 5.0,
+        "Metrics": 3.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-02-19",
+      "title": "10 lessons on bootstrapping a $200m business | Patrick Campbell (ProfitWell)",
+      "guest": "Patrick Campbell",
+      "filename": "podcasts/patrick-campbell.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 27.0,
+        "Product": 5.0,
+        "Leadership": 5.0,
+        "Design & UX": 0,
+        "Metrics": 14.0,
+        "Strategy": 26.0,
+        "Startups": 8.0,
+        "Go-to-Market": 5.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-02-23",
+      "title": "An inside look at how CNN builds product | Upasna Gautam",
+      "guest": "Upasna Gautam",
+      "filename": "podcasts/upasna-gautam.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 5.0,
+        "Leadership": 8.0,
+        "Design & UX": 10.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-02-26",
+      "title": "Behind the scenes of Calendly\u2019s rapid growth | Annie Pearl (CPO)",
+      "guest": "Annie Pearl",
+      "filename": "podcasts/annie-pearl.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 40.0,
+        "Leadership": 20.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 4.0,
+        "Startups": 1.0,
+        "Go-to-Market": 5.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-03-02",
+      "title": "Gustaf Alstromer",
+      "guest": "Gustaf Alstromer",
+      "filename": "podcasts/gustaf-alstromer.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 7.0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-03-05",
+      "title": "Lessons from scaling Stripe | Claire Hughes Johnson (former COO of Stripe)",
+      "guest": "Claire Hughes Johnson",
+      "filename": "podcasts/claire-hughes-johnson.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 9.0,
+        "Leadership": 3.0,
+        "Design & UX": 3.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-03-09",
+      "title": "Career frameworks, A/B testing mistakes, counterintuitive onboarding tips, selling to developers | Laura Schaffer (VP of Growth at Amplitude)",
+      "guest": "Laura Schaffer",
+      "filename": "podcasts/laura-schaffer.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 13.0,
+        "Metrics": 13.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-03-12",
+      "title": "Hot takes and techno-optimism from tech\u2019s top power couple | Sriram and Aarthi",
+      "guest": "Sriram and Aarthi",
+      "filename": "podcasts/sriram-and-aarthi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 12.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 3.0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-03-16",
+      "title": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+      "guest": "Christina Wodtke",
+      "filename": "podcasts/christina-wodtke.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 5.0,
+        "Product": 7.0,
+        "Leadership": 127.0,
+        "Design & UX": 0,
+        "Metrics": 4.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-03-19",
+      "title": "Competing with giants: An inside look at how The Browser Company builds product | Josh Miller (CEO)",
+      "guest": "Josh Miller",
+      "filename": "podcasts/josh-miller.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 13.0,
+        "Product": 1.0,
+        "Leadership": 1.0,
+        "Design & UX": 7.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2023-03-23",
+      "title": "Navigating comms and PR | Lulu Cheng Meservey (Substack, Activision Blizzard)",
+      "guest": "Lulu Cheng Meservey",
+      "filename": "podcasts/lulu-cheng-meservey.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2023-03-26",
+      "title": "Taxi mafias, cash vaults, and 100% MoM growth: The story behind Southeast Asia\u2019s biggest startup | Kevin Aluwi (Gojek)",
+      "guest": "Kevin Aluwi",
+      "filename": "podcasts/kevin-aluwi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-04-02",
+      "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+      "guest": "Hila Qu",
+      "filename": "podcasts/hila-qu.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 61.0,
+        "Product": 66.0,
+        "Leadership": 0,
+        "Design & UX": 4.0,
+        "Metrics": 18.0,
+        "Strategy": 7.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2023-04-06",
+      "title": "Driving alignment and urgency within teams, work-life balance, and the changing PM landscape | Nikita Miller (The Knot, Trello)",
+      "guest": "Nikita Miller",
+      "filename": "podcasts/nikita-miller.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 1.0,
+        "Leadership": 2.0,
+        "Design & UX": 3.0,
+        "Metrics": 1.0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-04-09",
+      "title": "Product lessons from Waymo | Shweta Shrivastava (Waymo, Amazon, Cisco)",
+      "guest": "Shweta Shriva",
+      "filename": "podcasts/shweta-shriva.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 8.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-04-13",
+      "title": "How to build a cult-like brand | Laura Modi (Bobbie)",
+      "guest": "Laura Modi",
+      "filename": "podcasts/laura-modi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-04-16",
+      "title": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
+      "guest": "Ada Chen Rekhi",
+      "filename": "podcasts/ada-chen-rekhi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 2.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 3.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-04-20",
+      "title": "An inside look at how Miro builds product: Lessons on outmaneuvering competitors, team structure, product quality, and moving fast | Varun Parmar (CPO of Miro)",
+      "guest": "Varun Parmar",
+      "filename": "podcasts/varun-parmar.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 30.0,
+        "Leadership": 7.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 7.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-04-30",
+      "title": "How to achieve hypergrowth in your business and career | Carilu Dietrich (Atlassian, Miro, Segment, 1Password)",
+      "guest": "Carilu Dietrich",
+      "filename": "podcasts/carilu-dietrich.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 13.0,
+        "Product": 7.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 3.0,
+        "Startups": 1.0,
+        "Go-to-Market": 5.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2023-05-04",
+      "title": "Building a culture of excellence | David Singleton (CTO of Stripe)",
+      "guest": "David Singleton",
+      "filename": "podcasts/david-singleton.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 14.0,
+        "Leadership": 5.0,
+        "Design & UX": 1.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 8.0
+      }
+    },
+    {
+      "date": "2023-05-07",
+      "title": "Mastering paid growth | Jonathan Becker (Thrive Digital)",
+      "guest": "Jonathan Becker",
+      "filename": "podcasts/jonathan-becker.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 13.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 11.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-05-14",
+      "title": "Frameworks for product differentiation, team building, and thinking from first principles | Ayo Omojola (Carbon Health, Cash App)",
+      "guest": "Ayo Omojola",
+      "filename": "podcasts/ayo-omojola.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 2.0,
+        "Design & UX": 2.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-05-18",
+      "title": "Lessons on building product sense, navigating AI, optimizing the first mile, and making it through the messy middle | Scott Belsky (Adobe, Behance)",
+      "guest": "Scott Belsky",
+      "filename": "podcasts/scott-belsky.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 6.0,
+        "Product": 15.0,
+        "Leadership": 0,
+        "Design & UX": 7.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-05-21",
+      "title": "Gustav S\u00f6derstr\u00f6m",
+      "guest": "Gustav S\u00f6derstr\u00f6m",
+      "filename": "podcasts/gustav-soderstrom.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 1.0,
+        "Product": 5.0,
+        "Leadership": 2.0,
+        "Design & UX": 2.0,
+        "Metrics": 3.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 8.0
+      }
+    },
+    {
+      "date": "2023-05-28",
+      "title": "The power of strategic narrative | Andy Raskin",
+      "guest": "Andy Raskin",
+      "filename": "podcasts/andy-raskin-.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 5.0,
+        "Strategy": 0,
+        "Startups": 4.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-06-01",
+      "title": "Storytelling with Nancy Duarte: How to craft compelling presentations and tell a story that sticks",
+      "guest": "Nancy Duarte",
+      "filename": "podcasts/nancy-duarte.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 2.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-06-04",
+      "title": "Moving fast and navigating uncertainty | Jeremy Henrickson (Rippling, Coinbase)",
+      "guest": "Jeremy Henrickson",
+      "filename": "podcasts/jeremy-henrickson.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 8.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-06-11",
+      "title": "Building a long and meaningful career | Nikhyl Singhal (Meta, Google)",
+      "guest": "Nikhyl Singhal",
+      "filename": "podcasts/nikhyl-singhal.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 7.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 6.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-06-15",
+      "title": "Leveraging growth advisors, hiring well, mastering SEO, and honing your craft | Luc Levesque (Shopify, Meta, TripAdvisor)",
+      "guest": "Luc Levesque",
+      "filename": "podcasts/luc-levesque.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 12.0,
+        "Product": 8.0,
+        "Leadership": 5.0,
+        "Design & UX": 2.0,
+        "Metrics": 3.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 32.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-06-18",
+      "title": "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)",
+      "guest": "Melissa Tan",
+      "filename": "podcasts/melissa-tan.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 10.0,
+        "Product": 8.0,
+        "Leadership": 15.0,
+        "Design & UX": 1.0,
+        "Metrics": 3.0,
+        "Strategy": 17.0,
+        "Startups": 2.0,
+        "Go-to-Market": 3.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-06-25",
+      "title": "Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)",
+      "guest": "Sri Batchu",
+      "filename": "podcasts/sri-batchu.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 12.0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 56.0,
+        "Strategy": 1.0,
+        "Startups": 6.0,
+        "Go-to-Market": 12.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-07-02",
+      "title": "Building minimum lovable products, stories from WeWork and Airbnb, and thriving as a PM | Jiaona Zhang (Webflow, WeWork, Airbnb, Dropbox)",
+      "guest": "Jiaona Zhang",
+      "filename": "podcasts/jiaona-zhang.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 21.0,
+        "Leadership": 20.0,
+        "Design & UX": 2.0,
+        "Metrics": 7.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-07-09",
+      "title": "How to ask the right questions, project confidence, and win over skeptics | Paige Costello (Asana, Intercom, Intuit)",
+      "guest": "Paige Costello",
+      "filename": "podcasts/paige-costello.md",
+      "topics": {
+        "AI/ML": 3.0,
+        "Growth": 1.0,
+        "Product": 7.0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-07-13",
+      "title": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
+      "guest": "Julia Schottenstein",
+      "filename": "podcasts/julia-schottenstein.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 5.0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 12.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 18.0
+      }
+    },
+    {
+      "date": "2023-07-16",
+      "title": "LinkedIn\u2019s product evolution and the art of building complex systems | Hari Srinivasan (LinkedIn)",
+      "guest": "Hari Srinivasan",
+      "filename": "podcasts/hari-srinivasan.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 3.0,
+        "Strategy": 16.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-07-23",
+      "title": "The 10 traits of great PMs, how AI will impact your product, and Slack\u2019s product development process | Noah Weiss (Slack, Foursquare, Google)",
+      "guest": "Noah Weiss",
+      "filename": "podcasts/noah-weiss.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 21.0,
+        "Leadership": 0,
+        "Design & UX": 12.0,
+        "Metrics": 7.0,
+        "Strategy": 2.0,
+        "Startups": 2.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 5.0
+      }
+    },
+    {
+      "date": "2023-07-27",
+      "title": "The ultimate guide to A/B testing | Ronny Kohavi (Airbnb, Microsoft, Amazon)",
+      "guest": "Ronny Kohavi",
+      "filename": "podcasts/ronny-kohavi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 51.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-08-06",
+      "title": "Velocity over everything: How Ramp became the fastest-growing SaaS startup of all time | Geoff Charles (VP of Product)",
+      "guest": "Geoff Charles",
+      "filename": "podcasts/geoff-charles.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 21.0,
+        "Leadership": 27.0,
+        "Design & UX": 0,
+        "Metrics": 3.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2023-08-10",
+      "title": "Relentless curiosity, radical accountability, and HubSpot\u2019s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
+      "guest": "Christopher Miller",
+      "filename": "podcasts/christopher-miller.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 8.0,
+        "Product": 31.0,
+        "Leadership": 0,
+        "Design & UX": 4.0,
+        "Metrics": 1.0,
+        "Strategy": 10.0,
+        "Startups": 4.0,
+        "Go-to-Market": 16.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-08-13",
+      "title": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+      "guest": "Austin Hay",
+      "filename": "podcasts/austin-hay.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 4.0,
+        "Leadership": 2.0,
+        "Design & UX": 2.0,
+        "Metrics": 3.0,
+        "Strategy": 0,
+        "Startups": 6.0,
+        "Go-to-Market": 0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2023-08-20",
+      "title": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
+      "guest": "Camille Hearst",
+      "filename": "podcasts/camille-hearst.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 2.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 9.0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-08-24",
+      "title": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+      "guest": "Bob Moesta",
+      "filename": "podcasts/bob-moesta.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 32.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-08-27",
+      "title": "An inside look at Deel\u2019s unprecedented growth | Meltem Kuran Berkowitz (Head of Growth)",
+      "guest": "Meltem Kuran",
+      "filename": "podcasts/meltem-kuran.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 5.0,
+        "Product": 1.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 2.0,
+        "Startups": 1.0,
+        "Go-to-Market": 22.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-09-03",
+      "title": "Inside Etsy\u2019s product, growth, and marketplace evolution | Tim Holley (VP of Product)",
+      "guest": "Tim Holley",
+      "filename": "podcasts/tim-holley.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 10.0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 11.0,
+        "Strategy": 29.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-09-07",
+      "title": "An inside look at Figma\u2019s unique GTM motion | Claire Butler (first GTM hire)",
+      "guest": "Claire Butler",
+      "filename": "podcasts/claire-butler.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 7.0,
+        "Leadership": 0,
+        "Design & UX": 24.0,
+        "Metrics": 0,
+        "Strategy": 10.0,
+        "Startups": 2.0,
+        "Go-to-Market": 22.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-09-10",
+      "title": "When enough is enough | Andy Johns (ex-FB, Twitter, Quora)",
+      "guest": "Andy Johns",
+      "filename": "podcasts/andy-johns.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-09-14",
+      "title": "Picking sharp problems, increasing virality, and unique product frameworks | Oji Udezue (Typeform, Twitter, Calendly, Atlassian)",
+      "guest": "Oji Udezue",
+      "filename": "podcasts/oji-udezue.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 59.0,
+        "Product": 16.0,
+        "Leadership": 4.0,
+        "Design & UX": 14.0,
+        "Metrics": 2.0,
+        "Strategy": 14.0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-09-17",
+      "title": "How to become a category pirate | Christopher Lochhead (author of Play Bigger, Niche Down, Category Pirates, more)",
+      "guest": "Christopher Lochhead",
+      "filename": "podcasts/christopher-lochhead.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 1.0,
+        "Product": 8.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 20.0,
+        "Startups": 1.0,
+        "Go-to-Market": 3.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-09-21",
+      "title": "Becoming evidence-guided | Itamar Gilad (Gmail, YouTube, Microsoft)",
+      "guest": "Itamar Gilad",
+      "filename": "podcasts/itamar-gilad.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 17.0,
+        "Leadership": 12.0,
+        "Design & UX": 9.0,
+        "Metrics": 31.0,
+        "Strategy": 0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-09-24",
+      "title": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+      "guest": "Nilan Peiris",
+      "filename": "podcasts/nilan-peiris.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 46.0,
+        "Product": 2.0,
+        "Leadership": 0,
+        "Design & UX": 7.0,
+        "Metrics": 15.0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-09-28",
+      "title": "Building Anchor, selling to Spotify, and lessons learned | Maya Prohovnik (Spotify\u2019s Head of Podcast Product)",
+      "guest": "Maya Prohovnik",
+      "filename": "podcasts/maya-prohovnik.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 6.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-10-01",
+      "title": "What sets great teams apart | Lane Shackleton (CPO of Coda)",
+      "guest": "Lane Shackleton",
+      "filename": "podcasts/lane-shackleton.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 1.0,
+        "Leadership": 8.0,
+        "Design & UX": 3.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-10-05",
+      "title": "Brian Balfour: 10 lessons on career, growth, and life",
+      "guest": "Brian Balfour",
+      "filename": "podcasts/brian-balfour.md",
+      "topics": {
+        "AI/ML": 5.0,
+        "Growth": 16.0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 4.0,
+        "Metrics": 0,
+        "Strategy": 22.0,
+        "Startups": 0,
+        "Go-to-Market": 7.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-10-08",
+      "title": "Inside Linear: Building with taste, craft, and focus | Karri Saarinen (co-founder, designer, CEO)",
+      "guest": "Karri Saarinen",
+      "filename": "podcasts/karri-saarinen.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 14.0,
+        "Leadership": 0,
+        "Design & UX": 4.0,
+        "Metrics": 0,
+        "Strategy": 4.0,
+        "Startups": 1.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-10-12",
+      "title": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
+      "guest": "Jason Feifer",
+      "filename": "podcasts/jason-feifer.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 7.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-10-15",
+      "title": "Building beautiful products with Stripe\u2019s Head of Design | Katie Dill (Stripe, Airbnb, Lyft)",
+      "guest": "Katie Dill",
+      "filename": "podcasts/katie-dill.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 0,
+        "Product": 3.0,
+        "Leadership": 2.0,
+        "Design & UX": 10.0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-10-19",
+      "title": "Scaling Duolingo, embracing failure, and insight into Latin America\u2019s tech scene | Gina Gotthilf (Latitud, Duolingo)",
+      "guest": "Gina Gotthilf",
+      "filename": "podcasts/gina-gotthilf.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 8.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 10.0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-10-26",
+      "title": "What AI means for your product strategy | Paul Adams (CPO of Intercom)",
+      "guest": "Paul Adams",
+      "filename": "podcasts/paul-adams.md",
+      "topics": {
+        "AI/ML": 3.0,
+        "Growth": 3.0,
+        "Product": 23.0,
+        "Leadership": 1.0,
+        "Design & UX": 3.0,
+        "Metrics": 0,
+        "Strategy": 11.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-10-29",
+      "title": "Reflections on a movement | Eric Ries (creator of the Lean Startup methodology)",
+      "guest": "Eric Ries",
+      "filename": "podcasts/eric-ries.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 8.0,
+        "Product": 35.0,
+        "Leadership": 8.0,
+        "Design & UX": 2.0,
+        "Metrics": 9.0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2023-11-02",
+      "title": "Unpacking Amazon\u2019s unique ways of working | Bill Carr (author of Working Backwards)",
+      "guest": "Bill Carr",
+      "filename": "podcasts/bill-carr.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 5.0,
+        "Product": 8.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2023-11-05",
+      "title": "Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, Tripadvisor)",
+      "guest": "Maggie Crowley",
+      "filename": "podcasts/maggie-crowley.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 16.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 5.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-11-09",
+      "title": "Marketplace lessons from Uber, Airbnb, Bumble, and more | Ramesh Johari (Stanford professor, startup advisor)",
+      "guest": "Ramesh Johari",
+      "filename": "podcasts/ramesh-johari.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 5.0,
+        "Product": 1.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 28.0,
+        "Strategy": 99.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-11-19",
+      "title": "Redefining success, money, and belonging | Paul Millerd (The Pathless Path)",
+      "guest": "Paul Millerd",
+      "filename": "podcasts/paul-millerd.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-11-26",
+      "title": "Billion dollar failures, and billion dollar success | Tom Conrad (Quibi, Pandora, Pets.com, Snap, Zero)",
+      "guest": "Tom Conrad",
+      "filename": "podcasts/tom-conrad.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 5.0,
+        "Product": 8.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 6.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-11-29",
+      "title": "Interview Q Compilation",
+      "guest": "Interview Q Compilation",
+      "filename": "podcasts/interview-q-compilation.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 4.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2023-12-01",
+      "title": "The future of AI in software development | Inbal Shani (CPO of GitHub)",
+      "guest": "Inbal S",
+      "filename": "podcasts/inbal-s.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 2.0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 6.0
+      }
+    },
+    {
+      "date": "2023-12-03",
+      "title": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+      "guest": "Ebi Atawodi",
+      "filename": "podcasts/ebi-atawodi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 15.0,
+        "Leadership": 2.0,
+        "Design & UX": 9.0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2023-12-07",
+      "title": "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart)",
+      "guest": "Anuj Rathi",
+      "filename": "podcasts/anuj-rathi.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 5.0,
+        "Product": 11.0,
+        "Leadership": 5.0,
+        "Design & UX": 6.0,
+        "Metrics": 0,
+        "Strategy": 18.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2023-12-10",
+      "title": "Radical Candor: From theory to practice with author Kim Scott",
+      "guest": "Kim Scott",
+      "filename": "podcasts/kim-scott.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 2.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-12-13",
+      "title": "Failure",
+      "guest": "Failure",
+      "filename": "podcasts/failure.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 4.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 7.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-12-15",
+      "title": "How to tell better stories | Matthew Dicks (Storyworthy)",
+      "guest": "Matthew Dicks",
+      "filename": "podcasts/matthew-dicks.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-12-17",
+      "title": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+      "guest": "Jason Fried",
+      "filename": "podcasts/jason-fried.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 5.0,
+        "Strategy": 2.0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-12-21",
+      "title": "The essence of product management | Christian Idiodi (SVPG)",
+      "guest": "Christian Idiodi",
+      "filename": "podcasts/christian-idiodi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2023-12-27",
+      "title": "The hierarchy of engagement | Sarah Tavel (Benchmark, Greylock, Pinterest)",
+      "guest": "Sarah Tavel",
+      "filename": "podcasts/sarah-tavel.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 45.0,
+        "Product": 5.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 11.0,
+        "Strategy": 85.0,
+        "Startups": 2.0,
+        "Go-to-Market": 4.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "title": "Strategies for becoming less distracted and improving focus | Nir Eyal (author of Indistractable and Hooked)",
+      "guest": "Nir Eyal",
+      "filename": "podcasts/nir-eyal.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-01-04",
+      "title": "The UX research reckoning is here | Judd Antin (Airbnb, Meta)",
+      "guest": "Judd Antin",
+      "filename": "podcasts/judd-antin.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 1.0,
+        "Product": 4.0,
+        "Leadership": 5.0,
+        "Design & UX": 19.0,
+        "Metrics": 16.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-01-07",
+      "title": "The engineering mindset | Will Larson (Carta, Stripe, Uber, Calm, Digg)",
+      "guest": "Will Larson",
+      "filename": "podcasts/will-larson.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 5.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "title": "How to be more innovative | Sam Schillace (Microsoft deputy CTO, creator of Google Docs)",
+      "guest": "Sam Schillace",
+      "filename": "podcasts/sam-schillace.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 2.0,
+        "Leadership": 2.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-01-14",
+      "title": "Taking control of your career | Ethan Evans (Amazon)",
+      "guest": "Ethan Evans 2.0",
+      "filename": "podcasts/ethan-evans-20.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-01-18",
+      "title": "The art and wisdom of changing teams | Heidi Helfand (author of Dynamic Reteaming)",
+      "guest": "Heidi Helfand",
+      "filename": "podcasts/heidi-helfand.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 0,
+        "Strategy": 7.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-01-21",
+      "title": "Good Strategy, Bad Strategy | Richard Rumelt",
+      "guest": "Richard Rumelt",
+      "filename": "podcasts/richard-rumelt.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 11.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-01-25",
+      "title": "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market",
+      "guest": "Geoffrey Moore",
+      "filename": "podcasts/geoffrey-moore.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 6.0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 2.0,
+        "Strategy": 10.0,
+        "Startups": 6.0,
+        "Go-to-Market": 4.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-01-28",
+      "title": "Managing nerves, anxiety, and burnout | Jonny Miller (Nervous System Mastery)",
+      "guest": "Jonny Miller",
+      "filename": "podcasts/jonny-miller.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2024-02-04",
+      "title": "Lessons from Atlassian: Launching new products, getting buy-in, and staying ahead of the competition | Megan Cook (head of product, Jira)",
+      "guest": "Megan Cook",
+      "filename": "podcasts/megan-cook.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 7.0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-02-08",
+      "title": "Inside OpenAI | Logan Kilpatrick (head of developer relations)",
+      "guest": "Logan Kilpatrick",
+      "filename": "podcasts/logan-kilpatrick.md",
+      "topics": {
+        "AI/ML": 10.0,
+        "Growth": 1.0,
+        "Product": 2.0,
+        "Leadership": 11.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 20.0
+      }
+    },
+    {
+      "date": "2024-02-11",
+      "title": "Making time for what matters | Jake Knapp and John Zeratsky (authors of Sprint and Make Time, co-founders of Character Capital)",
+      "guest": "Jake Knapp + John Zeratsky",
+      "filename": "podcasts/jake-knapp--john-zeratsky.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 10.0,
+        "Leadership": 6.0,
+        "Design & UX": 12.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-02-22",
+      "title": "How Netflix builds a culture of excellence | Elizabeth Stone (CTO)",
+      "guest": "Elizabeth Stone",
+      "filename": "podcasts/elizabeth-stone.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 2.0,
+        "Design & UX": 6.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-02-25",
+      "title": "How to discover your superpowers, own your story, and unlock personal growth | Donna Lichaw (author of The Leader\u2019s Journey)",
+      "guest": "Donna Lichaw",
+      "filename": "podcasts/donna-lichaw.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-03-03",
+      "title": "Making Meta | Andrew \u2018Boz\u2019 Bosworth (CTO)",
+      "guest": "Boz",
+      "filename": "podcasts/boz.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 3.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 2.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-03-07",
+      "title": "Inside TikTok: Culture, strategy, monetization, and more | Ray Cao (Global Head of Monetization Product Strategy and Operations)",
+      "guest": "Ray Cao",
+      "filename": "podcasts/ray-cao.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 0,
+        "Product": 8.0,
+        "Leadership": 18.0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 18.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-03-17",
+      "title": "The happiness and pain of product management | Noam Lovinsky (Grammarly, Facebook, YouTube, Thumbtack)",
+      "guest": "Noam Lovinsky",
+      "filename": "podcasts/noam-lovinsky.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 7.0,
+        "Leadership": 2.0,
+        "Design & UX": 2.0,
+        "Metrics": 4.0,
+        "Strategy": 7.0,
+        "Startups": 0,
+        "Go-to-Market": 9.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-03-21",
+      "title": "The ultimate guide to PR | Emilie Gerber (founder of Six Eastern)",
+      "guest": "Emilie Gerber",
+      "filename": "podcasts/emilie-gerber.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 2.0,
+        "Startups": 9.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-03-24",
+      "title": "Kunal Shah on winning in India, second-order thinking, the philosophy of startups, and more",
+      "guest": "Kunal Shah",
+      "filename": "podcasts/kunal-shah.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 1.0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 8.0,
+        "Startups": 1.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2024-03-31",
+      "title": "How to speak more confidently and persuasively | Matt Abrahams (professor, podcast host, author, speaker)",
+      "guest": "Matt Abrahams",
+      "filename": "podcasts/matt-abrahams.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-04-04",
+      "title": "Zigging vs. zagging: How HubSpot built a $30B company | Dharmesh Shah (co-founder/CTO)",
+      "guest": "Dharmesh Shah",
+      "filename": "podcasts/dharmesh-shah.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 5.0,
+        "Leadership": 11.0,
+        "Design & UX": 0,
+        "Metrics": 5.0,
+        "Strategy": 1.0,
+        "Startups": 1.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-04-07",
+      "title": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
+      "guest": "Claire Vo",
+      "filename": "podcasts/claire-vo.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 0,
+        "Product": 5.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 10.0,
+        "Strategy": 3.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2024-04-11",
+      "title": "A framework for finding product-market fit | Todd Jackson (First Round Capital)",
+      "guest": "Todd Jackson",
+      "filename": "podcasts/todd-jackson.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 13.0,
+        "Product": 91.0,
+        "Leadership": 4.0,
+        "Design & UX": 0,
+        "Metrics": 6.0,
+        "Strategy": 11.0,
+        "Startups": 5.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-04-18",
+      "title": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
+      "guest": "Dalton Caldwell",
+      "filename": "podcasts/dalton-caldwell.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 3.0,
+        "Strategy": 12.0,
+        "Startups": 3.0,
+        "Go-to-Market": 0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2024-04-21",
+      "title": "Vision, conviction, and hype: How to build 0 to 1 inside a company | Mihika Kapoor (Product at Figma)",
+      "guest": "Mihika Kapoor",
+      "filename": "podcasts/mihika-kapoor.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 14.0,
+        "Leadership": 0,
+        "Design & UX": 8.0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 1.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-04-25",
+      "title": "How to build deeper, more robust relationships | Carole Robin (Stanford GSB professor, \u201cTouchy Feely\u201d)",
+      "guest": "Carole Robin",
+      "filename": "podcasts/carole-robin.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 19.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-04-28",
+      "title": "Twitter\u2019s former Head of Product opens up: being fired, meeting Elon, changing stagnant culture, building consumer product, more | Kayvon Beykpour",
+      "guest": "Kayvon Beykpour",
+      "filename": "podcasts/kayvon-beykpour.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 5.0,
+        "Product": 10.0,
+        "Leadership": 3.0,
+        "Design & UX": 4.0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-05-02",
+      "title": "This will make you a better decision-maker | Annie Duke (author of \u201cThinking in Bets\u201d and \u201cQuit,\u201d former pro poker player)",
+      "guest": "Annie Duke",
+      "filename": "podcasts/annie-duke.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 24.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 9.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-05-05",
+      "title": "Business strategy with Hamilton Helmer (author of 7 Powers)",
+      "guest": "Hamilton Helmer",
+      "filename": "podcasts/hamilton-helmer.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 13.0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 20.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-05-12",
+      "title": "A framework for PM skill development | Vikrama Dhiman (Gojek)",
+      "guest": "Vikrama Dhiman",
+      "filename": "podcasts/vikrama-dhiman.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-05-16",
+      "title": "Be fundamentally different, not incrementally better | Jag Duggal (Nubank, Facebook, Google, Quantcast)",
+      "guest": "Jag Duggal",
+      "filename": "podcasts/jag-duggal.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 7.0,
+        "Product": 6.0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 6.0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-05-19",
+      "title": "Why not asking for what you want is holding you back | Kenneth Berger (exec coach, first PM at Slack)",
+      "guest": "Kenneth Berger",
+      "filename": "podcasts/kenneth-berger.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-05-26",
+      "title": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
+      "guest": "Bangaly Kaba",
+      "filename": "podcasts/bangaly-kaba.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 27.0,
+        "Product": 10.0,
+        "Leadership": 6.0,
+        "Design & UX": 6.0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 11.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-05-30",
+      "title": "The surprising truth about what closes deals: Insights from 2.5m sales conversations | Matt Dixon (author of The Challenger Sale and The JOLT Effect)",
+      "guest": "Matt Dixon",
+      "filename": "podcasts/matt-dixon.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 2.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-06-02",
+      "title": "Inside Canva: Coaches not managers, giving away your Legos, and running profitably | Cameron Adams (co-founder and CPO)",
+      "guest": "Cam Adams",
+      "filename": "podcasts/cam-adams.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 1.0,
+        "Product": 4.0,
+        "Leadership": 1.0,
+        "Design & UX": 14.0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 6.0,
+        "Go-to-Market": 12.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-06-09",
+      "title": "Lessons from a two-time unicorn builder, 50-time startup advisor, and 20-time company board member | Uri Levine (co-founder of Waze)",
+      "guest": "Uri Levine",
+      "filename": "podcasts/uri-levine.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 16.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 1.0,
+        "Startups": 4.0,
+        "Go-to-Market": 3.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-06-13",
+      "title": "The paths to power: How to grow your influence and advance your career | Jeffrey Pfeffer (author of 7 Rules of Power, professor at Stanford GSB)",
+      "guest": "Jeffrey Pfeffer",
+      "filename": "podcasts/jeffrey-pfeffer.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-06-16",
+      "title": "Hard-won lessons building 0 to 1 inside Atlassian | Tanguy Crusson (Head of Jira Product Discovery)",
+      "guest": "Tanguy Crusson",
+      "filename": "podcasts/tanguy-crusson.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 7.0,
+        "Leadership": 2.0,
+        "Design & UX": 5.0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-06-23",
+      "title": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+      "guest": "Ami Vora",
+      "filename": "podcasts/ami-vora.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 6.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-06-27",
+      "title": "The social radar: Y Combinator\u2019s secret weapon | Jessica Livingston (co-founder of Y Combinator, author, podcast host)",
+      "guest": "Jessica Livingston",
+      "filename": "podcasts/jessica-livingston.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-06-30",
+      "title": "Dylan Field live at Config: Intuition, simplicity, and the future of design",
+      "guest": "Dylan Field",
+      "filename": "podcasts/dylan-field.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 2.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 5.0
+      }
+    },
+    {
+      "date": "2024-07-07",
+      "title": "Pattern Breakers: How to find a breakthrough startup idea | Mike Maples, Jr. (Founding Partner at Floodgate, ex-Product at Silicon Graphics)",
+      "guest": "Mike Maples Jr",
+      "filename": "podcasts/mike-maples-jr.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 6.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-07-11",
+      "title": "Building product at Stripe: craft, metrics, and customer obsession | Jeff Weinstein (Product lead)",
+      "guest": "Jeff Weinstein",
+      "filename": "podcasts/jeff-weinstein.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 8.0,
+        "Product": 7.0,
+        "Leadership": 1.0,
+        "Design & UX": 4.0,
+        "Metrics": 3.0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2024-07-14",
+      "title": "Building a world-class data org | Jessica Lachs (VP of Analytics and Data Science at DoorDash)",
+      "guest": "Jess Lachs",
+      "filename": "podcasts/jess-lachs.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 8.0,
+        "Product": 4.0,
+        "Leadership": 1.0,
+        "Design & UX": 2.0,
+        "Metrics": 3.0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-07-25",
+      "title": "5 essential questions to craft a winning strategy | Roger Martin (author, advisor, speaker)",
+      "guest": "Roger Martin",
+      "filename": "podcasts/roger-martin.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 17.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-07-28",
+      "title": "The ultimate guide to performance marketing | Timothy Davis (Shopify)",
+      "guest": "Timothy Davis",
+      "filename": "podcasts/timothy-davis.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 6.0,
+        "Product": 7.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 8.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 8.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-08-04",
+      "title": "Lessons from scaling Uber and Opendoor | Brian Tolkin (Head of Product at Opendoor, ex-Uber)",
+      "guest": "Brian Tolkin",
+      "filename": "podcasts/brian-tolkin.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 18.0,
+        "Leadership": 0,
+        "Design & UX": 6.0,
+        "Metrics": 13.0,
+        "Strategy": 9.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-08-08",
+      "title": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
+      "guest": "Joe Hudson",
+      "filename": "podcasts/joe-hudson.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-08-11",
+      "title": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe (founder of CORE Sciences)",
+      "guest": "Evan LaPointe",
+      "filename": "podcasts/evan-lapointe.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 4.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 4.0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-08-18",
+      "title": "Unorthodox PM wisdom: Automating user insights, unselling job candidates, logging every decision, more | Kevin Yien (Stripe, Square, Mutiny)",
+      "guest": "Kevin Yien",
+      "filename": "podcasts/kevin-yien.md",
+      "topics": {
+        "AI/ML": 4.0,
+        "Growth": 2.0,
+        "Product": 11.0,
+        "Leadership": 1.0,
+        "Design & UX": 6.0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-08-25",
+      "title": "How to consistently go viral: Nikita Bier\u2019s playbook for winning at consumer apps (co-founder of TBH, Gas, advisor, investor)",
+      "guest": "Nikita Bier",
+      "filename": "podcasts/nikita-bier.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 13.0,
+        "Product": 4.0,
+        "Leadership": 2.0,
+        "Design & UX": 3.0,
+        "Metrics": 2.0,
+        "Strategy": 1.0,
+        "Startups": 1.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-09-05",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of \u201cHacking Growth\u201d)",
+      "guest": "Sean Ellis",
+      "filename": "podcasts/sean-ellis.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 38.0,
+        "Product": 44.0,
+        "Leadership": 0,
+        "Design & UX": 20.0,
+        "Metrics": 32.0,
+        "Strategy": 3.0,
+        "Startups": 6.0,
+        "Go-to-Market": 8.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-09-12",
+      "title": "Land your dream job in today\u2019s market: negotiation tactics, job search councils, and more | Phyl Terry (Author, \u201cNever Search Alone\u201d)",
+      "guest": "Phyl Terry",
+      "filename": "podcasts/phyl-terry.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 4.0,
+        "Leadership": 15.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 4.0,
+        "Startups": 3.0,
+        "Go-to-Market": 0,
+        "Engineering": 10.0
+      }
+    },
+    {
+      "date": "2024-09-15",
+      "title": "The things engineers are desperate for PMs to understand | Camille Fournier (author of \u201cThe Manager\u2019s Path,\u201d ex-CTO at Rent the Runway)",
+      "guest": "Camille Fournier",
+      "filename": "podcasts/camille-fournier.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2024-09-19",
+      "title": "Rethinking SEO in the age of AI | Eli Schwartz (SEO advisor, author)",
+      "guest": "Eli Schwartz",
+      "filename": "podcasts/eli-schwartz.md",
+      "topics": {
+        "AI/ML": 6.0,
+        "Growth": 2.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 0,
+        "Strategy": 4.0,
+        "Startups": 1.0,
+        "Go-to-Market": 238.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-09-26",
+      "title": "Lessons in product leadership and AI strategy from Glean, Google, Amazon, and Slack | Tamar Yehoshua (Product at Glean, ex-Google and Slack)",
+      "guest": "Tamar Yehoshua",
+      "filename": "podcasts/tamar-yehoshua.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 1.0,
+        "Product": 9.0,
+        "Leadership": 11.0,
+        "Design & UX": 9.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-09-29",
+      "title": "How marketplaces win: Liquidity, growth levers, quality, and more | Benjamin Lauzier (Lyft, Thumbtack, Reforge)",
+      "guest": "Benjamin Lauzier",
+      "filename": "podcasts/benjamin-lauzier.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 12.0,
+        "Product": 21.0,
+        "Leadership": 1.0,
+        "Design & UX": 9.0,
+        "Metrics": 1.0,
+        "Strategy": 96.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-10-03",
+      "title": "Thinking like a gardener not a builder, organizing teams like slime mold, the adjacent possible, and other unconventional product advice | Alex Komoroske (Stripe, Google)",
+      "guest": "Alex Komoroske",
+      "filename": "podcasts/alex-komoroske.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 9.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 6.0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2024-10-06",
+      "title": "Becoming a conscious leader: Leading without fear, finding your life\u2019s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
+      "guest": "John Mark Nickels",
+      "filename": "podcasts/john-mark-nickels.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 3.0,
+        "Leadership": 6.0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 29.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-10-13",
+      "title": "Why most public speaking advice is wrong\u2014and how to finally overcome your speaking anxiety | Tristan de Montebello (CEO & co-founder of Ultraspeaking)",
+      "guest": "Tristan de Montebello",
+      "filename": "podcasts/tristan-de-montebello.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-10-17",
+      "title": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
+      "guest": "Anneka Gupta",
+      "filename": "podcasts/anneka-gupta.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-10-20",
+      "title": "How to see like a designer: The hidden power of typography and logos | Jessica Hische (Lettering Artist, Author)",
+      "guest": "Jessica Hische",
+      "filename": "podcasts/jessica-hische.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-10-27",
+      "title": "Meta\u2019s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
+      "guest": "Naomi Gleit",
+      "filename": "podcasts/naomi-gleit.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 20.0,
+        "Product": 15.0,
+        "Leadership": 0,
+        "Design & UX": 10.0,
+        "Metrics": 4.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "title": "Shreyas Doshi Live",
+      "guest": "Shreyas Doshi Live",
+      "filename": "podcasts/shreyas-doshi-live.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 20.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-10-31",
+      "title": "4 questions Shreyas Doshi wishes he\u2019d asked himself sooner | Former PM leader at Stripe, Twitter, Google",
+      "guest": "Shreyas Doshi",
+      "filename": "podcasts/shreyas-doshi.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 3.0,
+        "Product": 4.0,
+        "Leadership": 6.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "title": "Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision | Archie Abrams (VP Product, Head of Growth at Shopify)",
+      "guest": "Archie Abrams",
+      "filename": "podcasts/archie-abrams.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 22.0,
+        "Product": 4.0,
+        "Leadership": 2.0,
+        "Design & UX": 8.0,
+        "Metrics": 14.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-11-17",
+      "title": "Building Wiz: the fastest-growing startup in history | Raaz Herzberg (CMO and VP Product Strategy)",
+      "guest": "Raaz Herzberg",
+      "filename": "podcasts/raaz-herzberg.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-11-21",
+      "title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
+      "guest": "Amjad Masad",
+      "filename": "podcasts/amjad-masad.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 2.0,
+        "Product": 6.0,
+        "Leadership": 3.0,
+        "Design & UX": 6.0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2024-12-05",
+      "title": "How a great founder becomes a great CEO | Jonathan Lowenhar (co-founder of Enjoy The Work)",
+      "guest": "Jonathan Lowenhar",
+      "filename": "podcasts/jonathan-lowenhar.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 5.0,
+        "Leadership": 3.0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 3.0,
+        "Startups": 4.0,
+        "Go-to-Market": 10.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-12-08",
+      "title": "Seth Godin's best tactics for building remarkable products, strategies, brands and more",
+      "guest": "Seth Godin",
+      "filename": "podcasts/seth-godin.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 5.0
+      }
+    },
+    {
+      "date": "2024-12-15",
+      "title": "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention Team)",
+      "guest": "Jackson Shuttleworth",
+      "filename": "podcasts/jackson-shuttleworth.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 26.0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2024-12-19",
+      "title": "How Shopify builds a high-intensity culture | Farhan Thawar (VP and Head of Eng)",
+      "guest": "Farhan Thawar",
+      "filename": "podcasts/farhan-thawar.md",
+      "topics": {
+        "AI/ML": 6.0,
+        "Growth": 1.0,
+        "Product": 2.0,
+        "Leadership": 3.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 11.0
+      }
+    },
+    {
+      "date": "2024-12-22",
+      "title": "Behind the founder: Marc Benioff",
+      "guest": "Marc Benioff",
+      "filename": "podcasts/marc-benioff.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 2.0,
+        "Product": 3.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2024-12-29",
+      "title": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
+      "guest": "Shaun Clowes",
+      "filename": "podcasts/shaun-clowes.md",
+      "topics": {
+        "AI/ML": 12.0,
+        "Growth": 9.0,
+        "Product": 22.0,
+        "Leadership": 0,
+        "Design & UX": 7.0,
+        "Metrics": 8.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-01-05",
+      "title": "Scripts for difficult conversations: Giving hard feedback, navigating defensiveness, the three questions you should end every meeting with, more | Alisa Cohn (executive coach)",
+      "guest": "Alisa Cohn",
+      "filename": "podcasts/alisa-cohn.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-01-09",
+      "title": "Behind the founder: Drew Houston (Dropbox)",
+      "guest": "Drew Houston",
+      "filename": "podcasts/drew-houston.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 10.0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "title": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
+      "guest": "Graham Weaver",
+      "filename": "podcasts/graham-weaver.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-01-26",
+      "title": "An operator\u2019s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+      "guest": "Chandra Janakiraman",
+      "filename": "podcasts/chandra-janakiraman.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 26.0,
+        "Leadership": 0,
+        "Design & UX": 12.0,
+        "Metrics": 4.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-01-30",
+      "title": "Linear\u2019s secret to building beloved B2B products | Nan Yu (Head of Product)",
+      "guest": "Nan Yu",
+      "filename": "podcasts/nan-yu.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 4.0,
+        "Leadership": 4.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-02-02",
+      "title": "Tobi Lutke",
+      "guest": "Tobi Lutke",
+      "filename": "podcasts/tobi-lutke.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 1.0,
+        "Leadership": 15.0,
+        "Design & UX": 0,
+        "Metrics": 3.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-02-09",
+      "title": "OpenAI researcher on why soft skills are the future of work | Karina Nguyen (Research at OpenAI, ex-Anthropic)",
+      "guest": "Karina Nguyen",
+      "filename": "podcasts/karina-nguyen.md",
+      "topics": {
+        "AI/ML": 27.0,
+        "Growth": 0,
+        "Product": 5.0,
+        "Leadership": 1.0,
+        "Design & UX": 12.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-02-27",
+      "title": "An inside look at X\u2019s Community Notes | Keith Coleman (VP of Product) and Jay Baxter (ML Lead)",
+      "guest": "Keith Coleman & Jay Baxter",
+      "filename": "podcasts/keith-coleman--jay-baxter.md",
+      "topics": {
+        "AI/ML": 8.0,
+        "Growth": 6.0,
+        "Product": 2.0,
+        "Leadership": 8.0,
+        "Design & UX": 12.0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 10.0
+      }
+    },
+    {
+      "date": "2025-03-02",
+      "title": "The creator of WordPress opens up about becoming an internet villain, why he\u2019s taking a stand, and the future of open source | Matt Mullenweg (founder and CEO, Automattic)",
+      "guest": "Matt Mullenweg",
+      "filename": "podcasts/matt-mullenweg.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 2.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 94.0
+      }
+    },
+    {
+      "date": "2025-03-06",
+      "title": "Notion\u2019s lost years, its near collapse during Covid, staying small to move fast, the joy and suffering of building horizontal, more | Ivan Zhao (CEO and co-founder)",
+      "guest": "Ivan Zhao",
+      "filename": "podcasts/ivan-zhao.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 0,
+        "Product": 6.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-03-09",
+      "title": "Building Lovable: $10M ARR in 60 days with 15 people | Anton Osika (co-founder and CEO)",
+      "guest": "Anton Osika",
+      "filename": "podcasts/anton-osika.md",
+      "topics": {
+        "AI/ML": 4.0,
+        "Growth": 2.0,
+        "Product": 9.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 6.0
+      }
+    },
+    {
+      "date": "2025-03-13",
+      "title": "Inside Bolt: From near-death to ~$40m ARR in 5 months\u2014one of the fastest-growing products in history | Eric Simons (founder and CEO of StackBlitz)",
+      "guest": "Eric Simons",
+      "filename": "podcasts/eric-simons.md",
+      "topics": {
+        "AI/ML": 3.0,
+        "Growth": 1.0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 6.0,
+        "Metrics": 0,
+        "Strategy": 2.0,
+        "Startups": 4.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-03-23",
+      "title": "Superhuman's secret to success: Ignoring most customer feedback, manually onboarding every new user, obsessing over every detail, and positioning around a single attribute: speed | Rahul Vohra (CEO)",
+      "guest": "Rahul Vohra",
+      "filename": "podcasts/rahul-vohra.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 22.0,
+        "Product": 32.0,
+        "Leadership": 2.0,
+        "Design & UX": 14.0,
+        "Metrics": 2.0,
+        "Strategy": 20.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "title": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
+      "guest": "Gaurav Misra",
+      "filename": "podcasts/gaurav-misra.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 8.0,
+        "Product": 31.0,
+        "Leadership": 1.0,
+        "Design & UX": 10.0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 1.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 12.0
+      }
+    },
+    {
+      "date": "2025-03-30",
+      "title": "A better way to plan, build, and ship products | Ryan Singer (creator of \u201cShape Up,\u201d early employee at 37signals)",
+      "guest": "Ryan Singer",
+      "filename": "podcasts/ryan-singer.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 5.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2025-04-06",
+      "title": "Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)",
+      "guest": "Wes Kao",
+      "filename": "podcasts/wes-kao.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "title": "OpenAI\u2019s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil (CPO at OpenAI, ex-Instagram, Twitter)",
+      "guest": "Kevin Weil",
+      "filename": "podcasts/kevin-weil.md",
+      "topics": {
+        "AI/ML": 40.0,
+        "Growth": 1.0,
+        "Product": 4.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 7.0
+      }
+    },
+    {
+      "date": "2025-04-13",
+      "title": "Everyone\u2019s an engineer now: Inside v0\u2019s mission to create a hundred million builders | Guillermo Rauch (founder and CEO of Vercel, creators of v0 and Next.js)",
+      "guest": "Guillermo Rauch",
+      "filename": "podcasts/guillermo-rauch.md",
+      "topics": {
+        "AI/ML": 9.0,
+        "Growth": 2.0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 4.0,
+        "Metrics": 0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 16.0
+      }
+    },
+    {
+      "date": "2025-04-20",
+      "title": "Building a magical AI code editor used by over 1 million developers in four months: The untold story of Windsurf | Varun Mohan (co-founder and CEO)",
+      "guest": "Varun Mohan",
+      "filename": "podcasts/varun-mohan.md",
+      "topics": {
+        "AI/ML": 4.0,
+        "Growth": 0,
+        "Product": 11.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 5.0,
+        "Engineering": 6.0
+      }
+    },
+    {
+      "date": "2025-04-27",
+      "title": "Inside monday.com\u2019s transformation: radical transparency, impact over output, and their path to $1B ARR | Daniel Lereya (Chief Product and Technology Officer)",
+      "guest": "Daniel Lereya",
+      "filename": "podcasts/daniel-lereya.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-05-01",
+      "title": "The rise of Cursor: The $300M ARR AI tool that engineers can\u2019t stop using | Michael Truell (co-founder and CEO)",
+      "guest": "Michael Truell",
+      "filename": "podcasts/michael-truell.md",
+      "topics": {
+        "AI/ML": 5.0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 1.0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "title": "How have I been complicit in creating the conditions I say I don\u2019t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
+      "guest": "Jerry Colonna",
+      "filename": "podcasts/jerry-colonna.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-05-11",
+      "title": "How Palantir built the ultimate founder factory | Nabeel S. Qureshi (founder, writer, ex-Palantir)",
+      "guest": "Nabeel S. Qureshi",
+      "filename": "podcasts/nabeel-s-qureshi.md",
+      "topics": {
+        "AI/ML": 3.0,
+        "Growth": 1.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "title": "How Revolut trains world-class product managers: The \u201clocal CEO\u201d model, raw intellect over experience, and a cultural obsession with building wow products | Dmitry Zlokazov (Head of Product)",
+      "guest": "Dmitry Zlokazov",
+      "filename": "podcasts/dmitry-zlokazov.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 1.0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-05-18",
+      "title": "Microsoft CPO: If you aren\u2019t prototyping with AI, you\u2019re doing it wrong | Aparna Chennapragada",
+      "guest": "Aparna Chennapragada",
+      "filename": "podcasts/aparna-chennapragada.md",
+      "topics": {
+        "AI/ML": 3.0,
+        "Growth": 2.0,
+        "Product": 5.0,
+        "Leadership": 2.0,
+        "Design & UX": 14.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "title": "Unconventional product lessons from Binance, N26, Google, more | Mayur Kamat (CPO at N26, ex-Binance Head of Product)",
+      "guest": "Mayur Kamat",
+      "filename": "podcasts/mayur-kamat.md",
+      "topics": {
+        "AI/ML": 5.0,
+        "Growth": 6.0,
+        "Product": 5.0,
+        "Leadership": 0,
+        "Design & UX": 11.0,
+        "Metrics": 14.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 5.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-05-25",
+      "title": "Growth tactics from OpenAI and Stripe\u2019s first marketer | Krithika Shankarraman",
+      "guest": "Krithika Shankarraman",
+      "filename": "podcasts/krithika-shankarraman.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 0,
+        "Product": 8.0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 5.0,
+        "Strategy": 19.0,
+        "Startups": 0,
+        "Go-to-Market": 6.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-06-05",
+      "title": "Anthropic\u2019s CPO on what comes next | Mike Krieger (co-founder of Instagram)",
+      "guest": "Mike Krieger",
+      "filename": "podcasts/mike-krieger.md",
+      "topics": {
+        "AI/ML": 7.0,
+        "Growth": 1.0,
+        "Product": 12.0,
+        "Leadership": 1.0,
+        "Design & UX": 2.0,
+        "Metrics": 4.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 7.0
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "title": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+      "guest": "Bob Baxley",
+      "filename": "podcasts/bob-baxley.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 1.0,
+        "Product": 6.0,
+        "Leadership": 0,
+        "Design & UX": 9.0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-06-15",
+      "title": "How to build a team that can \u201ctake a punch\u201d: A playbook for building resilient, high-performing teams | Hilary Gridley (Head of Core Product, Whoop)",
+      "guest": "Hilary Gridley",
+      "filename": "podcasts/hilary-gridley.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 7.0,
+        "Product": 0,
+        "Leadership": 11.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-06-19",
+      "title": "AI prompt engineering in 2025: What works and what doesn\u2019t | Sander Schulhoff (Learn Prompting, HackAPrompt)",
+      "guest": "Sander Schulhoff",
+      "filename": "podcasts/sander-schulhoff.md",
+      "topics": {
+        "AI/ML": 46.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-06-22",
+      "title": "From ChatGPT to Instagram to Uber: The quiet architect behind the world\u2019s most popular products | Peter Deng",
+      "guest": "Peter Deng",
+      "filename": "podcasts/peter-deng.md",
+      "topics": {
+        "AI/ML": 5.0,
+        "Growth": 15.0,
+        "Product": 3.0,
+        "Leadership": 2.0,
+        "Design & UX": 10.0,
+        "Metrics": 1.0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2025-06-29",
+      "title": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)",
+      "guest": "David Placek",
+      "filename": "podcasts/david-placek.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 2.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 24.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "title": "I\u2019ve run 75+ businesses. Here\u2019s why you\u2019re probably chasing the wrong idea. | Andrew Wilkinson (co\u2011founder of Tiny)",
+      "guest": "Andrew Wilkinson",
+      "filename": "podcasts/andrew-wilkinson.md",
+      "topics": {
+        "AI/ML": 4.0,
+        "Growth": 7.0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 8.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code | Dan Shipper (co-founder/CEO of Every)",
+      "guest": "Dan Shipper",
+      "filename": "podcasts/dan-shipper.md",
+      "topics": {
+        "AI/ML": 5.0,
+        "Growth": 1.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-07-20",
+      "title": "Benjamin Mann",
+      "guest": "Benjamin Mann",
+      "filename": "podcasts/benjamin-mann.md",
+      "topics": {
+        "AI/ML": 7.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 3.0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2025-07-27",
+      "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+      "guest": "Madhavan Ramanujam",
+      "filename": "podcasts/madhavan-ramanujam.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 4.0,
+        "Product": 19.0,
+        "Leadership": 1.0,
+        "Design & UX": 4.0,
+        "Metrics": 0,
+        "Strategy": 137.0,
+        "Startups": 3.0,
+        "Go-to-Market": 0,
+        "Engineering": 5.0
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "title": "He saved OpenAI, invented the \u201cLike\u201d button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+      "guest": "Bret Taylor",
+      "filename": "podcasts/bret-taylor.md",
+      "topics": {
+        "AI/ML": 8.0,
+        "Growth": 0,
+        "Product": 6.0,
+        "Leadership": 3.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 14.0,
+        "Startups": 2.0,
+        "Go-to-Market": 8.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-08-03",
+      "title": "Brian Chesky's secret mentor who died 9 times, started the Burning Man board, and built the world's first midlife wisdom school | Chip Conley (founder of MEA)",
+      "guest": "Chip Conley",
+      "filename": "podcasts/chip-conley.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-08-09",
+      "title": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+      "guest": "Nick Turley",
+      "filename": "podcasts/nick-turley.md",
+      "topics": {
+        "AI/ML": 12.0,
+        "Growth": 9.0,
+        "Product": 2.0,
+        "Leadership": 11.0,
+        "Design & UX": 3.0,
+        "Metrics": 0,
+        "Strategy": 4.0,
+        "Startups": 0,
+        "Go-to-Market": 3.0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "title": "The one question that saves product careers | Matt LeMay",
+      "guest": "Matt LeMay",
+      "filename": "podcasts/matt-lemay.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 6.0,
+        "Leadership": 26.0,
+        "Design & UX": 1.0,
+        "Metrics": 3.0,
+        "Strategy": 0,
+        "Startups": 2.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
+      "guest": "Eoghan McCabe",
+      "filename": "podcasts/eoghan-mccabe.md",
+      "topics": {
+        "AI/ML": 3.0,
+        "Growth": 0,
+        "Product": 5.0,
+        "Leadership": 3.0,
+        "Design & UX": 3.0,
+        "Metrics": 0,
+        "Strategy": 23.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-08-24",
+      "title": "Inside the expert network training every frontier AI model | Garrett Lord (Handshake CEO)",
+      "guest": "Garrett Lord",
+      "filename": "podcasts/garrett-lord.md",
+      "topics": {
+        "AI/ML": 7.0,
+        "Growth": 4.0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 5.0,
+        "Strategy": 8.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "title": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
+      "guest": "Asha Sharma",
+      "filename": "podcasts/asha-sharma.md",
+      "topics": {
+        "AI/ML": 16.0,
+        "Growth": 1.0,
+        "Product": 3.0,
+        "Leadership": 2.0,
+        "Design & UX": 5.0,
+        "Metrics": 4.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2025-08-31",
+      "title": "How we restructured Airtable\u2019s entire org for AI | Howie Liu (co-founder and CEO)",
+      "guest": "Howie Liu",
+      "filename": "podcasts/howie-liu.md",
+      "topics": {
+        "AI/ML": 21.0,
+        "Growth": 0,
+        "Product": 19.0,
+        "Leadership": 1.0,
+        "Design & UX": 16.0,
+        "Metrics": 4.0,
+        "Strategy": 3.0,
+        "Startups": 3.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "title": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
+      "guest": "Scott Wu",
+      "filename": "podcasts/scott-wu.md",
+      "topics": {
+        "AI/ML": 8.0,
+        "Growth": 1.0,
+        "Product": 2.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 0,
+        "Strategy": 6.0,
+        "Startups": 1.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "title": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
+      "guest": "Ben Horowitz",
+      "filename": "podcasts/ben-horowitz.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 1.0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2025-09-14",
+      "title": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
+      "guest": "Ethan Smith",
+      "filename": "podcasts/ethan-smith.md",
+      "topics": {
+        "AI/ML": 31.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 2.0,
+        "Go-to-Market": 57.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+      "guest": "Brendan Foody",
+      "filename": "podcasts/brendan-foody.md",
+      "topics": {
+        "AI/ML": 36.0,
+        "Growth": 3.0,
+        "Product": 2.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 11.0,
+        "Startups": 1.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+      "guest": "Hamel Husain & Shreya Shankar",
+      "filename": "podcasts/hamel-husain--shreya-shankar.md",
+      "topics": {
+        "AI/ML": 314.0,
+        "Growth": 4.0,
+        "Product": 4.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 2.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "title": "The secret to better AI prototypes: Why Tinder\u2019s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
+      "guest": "Ravi Mehta",
+      "filename": "podcasts/ravi-mehta.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 10.0,
+        "Product": 45.0,
+        "Leadership": 4.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 1.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2025-10-05",
+      "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+      "guest": "Albert Cheng",
+      "filename": "podcasts/albert-cheng.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 29.0,
+        "Product": 2.0,
+        "Leadership": 2.0,
+        "Design & UX": 5.0,
+        "Metrics": 18.0,
+        "Strategy": 2.0,
+        "Startups": 6.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-10-09",
+      "title": "First interview with Scale AI\u2019s CEO: $14B Meta deal, what\u2019s working in enterprise AI, and what frontier labs are building next | Jason Droege",
+      "guest": "Jason Droege",
+      "filename": "podcasts/jason-droege.md",
+      "topics": {
+        "AI/ML": 16.0,
+        "Growth": 3.0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 6.0,
+        "Strategy": 5.0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-10-10",
+      "title": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
+      "guest": "Robby Stein",
+      "filename": "podcasts/robby-stein.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 3.0,
+        "Product": 2.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2025-10-19",
+      "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+      "guest": "Nicole Forsgren",
+      "filename": "podcasts/nicole-forsgren.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 2.0,
+        "Leadership": 3.0,
+        "Design & UX": 1.0,
+        "Metrics": 3.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 21.0
+      }
+    },
+    {
+      "date": "2025-10-23",
+      "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+      "guest": "Chip Huyen",
+      "filename": "podcasts/chip-huyen.md",
+      "topics": {
+        "AI/ML": 39.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-10-26",
+      "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+      "guest": "Dhanji R. Prasanna",
+      "filename": "podcasts/dhanji-r-prasanna.md",
+      "topics": {
+        "AI/ML": 11.0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 15.0
+      }
+    },
+    {
+      "date": "2025-11-02",
+      "title": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+      "guest": "Melanie Perkins",
+      "filename": "podcasts/melanie-perkins.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 1.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-11-09",
+      "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+      "guest": "Jen Abel",
+      "filename": "podcasts/jen-abel.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 10.0,
+        "Product": 14.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 4.0,
+        "Go-to-Market": 2.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-11-13",
+      "title": "\u201cDumbest idea I\u2019ve heard\u201d to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+      "guest": "Grant Lee",
+      "filename": "podcasts/grant-lee.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 22.0,
+        "Product": 18.0,
+        "Leadership": 0,
+        "Design & UX": 25.0,
+        "Metrics": 11.0,
+        "Strategy": 11.0,
+        "Startups": 6.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-11-16",
+      "title": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+      "guest": "Dr. Fei Fei Li",
+      "filename": "podcasts/dr-fei-fei-li.md",
+      "topics": {
+        "AI/ML": 4.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 1.0,
+        "Metrics": 7.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "title": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
+      "guest": "Stewart Butterfield",
+      "filename": "podcasts/stewart-butterfield.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 2.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 1.0
+      }
+    },
+    {
+      "date": "2025-11-23",
+      "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
+      "guest": "Rachel Lockett",
+      "filename": "podcasts/rachel-lockett.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 1.0,
+        "Product": 5.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-11-30",
+      "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
+      "guest": "Jeanne Grosser",
+      "filename": "podcasts/jeanne-grosser.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 0,
+        "Product": 24.0,
+        "Leadership": 1.0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 18.0,
+        "Startups": 4.0,
+        "Go-to-Market": 65.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders\u201d | Tomer Cohen (LinkedIn CPO)",
+      "guest": "Tomer Cohen",
+      "filename": "podcasts/tomer-cohen.md",
+      "topics": {
+        "AI/ML": 8.0,
+        "Growth": 0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-12-07",
+      "title": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
+      "guest": "Edwin Chen",
+      "filename": "podcasts/edwin-chen.md",
+      "topics": {
+        "AI/ML": 22.0,
+        "Growth": 1.0,
+        "Product": 2.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 1.0,
+        "Strategy": 1.0,
+        "Startups": 3.0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-12-18",
+      "title": "Elena Verna 4.0",
+      "guest": "Elena Verna 4.0",
+      "filename": "podcasts/elena-verna-40.md",
+      "topics": {
+        "AI/ML": 22.0,
+        "Growth": 77.0,
+        "Product": 55.0,
+        "Leadership": 0,
+        "Design & UX": 7.0,
+        "Metrics": 5.0,
+        "Strategy": 10.0,
+        "Startups": 6.0,
+        "Go-to-Market": 9.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2025-12-28",
+      "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
+      "guest": "Matt MacInnis",
+      "filename": "podcasts/matt-macinnis.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 2.0,
+        "Product": 13.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2026-01-01",
+      "title": "We replaced our sales team with 20 AI agents\u2014here\u2019s what happened | Jason Lemkin (SaaStr)",
+      "guest": "Jason M Lemkin",
+      "filename": "podcasts/jason-m-lemkin.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 13.0,
+        "Product": 14.0,
+        "Leadership": 1.0,
+        "Design & UX": 3.0,
+        "Metrics": 5.0,
+        "Strategy": 3.0,
+        "Startups": 2.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2026-01-04",
+      "title": "The high-growth handbook: Molly Graham\u2019s frameworks for leading through chaos, change, and scale",
+      "guest": "Molly Graham",
+      "filename": "podcasts/molly-graham.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 1.0,
+        "Strategy": 2.0,
+        "Startups": 4.0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2026-01-11",
+      "title": "Aishwarya Naresh Reganti + Kiriti Badam",
+      "guest": "Aishwarya Naresh Reganti + Kiriti Badam",
+      "filename": "podcasts/aishwarya-naresh-reganti--kiriti-badam.md",
+      "topics": {
+        "AI/ML": 132.0,
+        "Growth": 22.0,
+        "Product": 14.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 10.0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 12.0
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "title": "The power user\u2019s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
+      "guest": "Alexander Embiricos",
+      "filename": "podcasts/alexander-embiricos.md",
+      "topics": {
+        "AI/ML": 5.0,
+        "Growth": 2.0,
+        "Product": 3.0,
+        "Leadership": 0,
+        "Design & UX": 6.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 7.0
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "title": "How to show up in any room with a low heart rate: Silicon Valley\u2019s missing etiquette playbook | Sam Lessin",
+      "guest": "Sam Lessin",
+      "filename": "podcasts/sam-lessin.md",
+      "topics": {
+        "AI/ML": 6.0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2026-01-18",
+      "title": "The non-technical PM\u2019s guide to building with Cursor | Zevi Arnovitz (Meta)",
+      "guest": "Zevi Arnovitz",
+      "filename": "podcasts/zevi-arnovitz.md",
+      "topics": {
+        "AI/ML": 3.0,
+        "Growth": 0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 2.0
+      }
+    },
+    {
+      "date": "2026-01-25",
+      "title": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+      "guest": "Jason Cohen",
+      "filename": "podcasts/jason-cohen.md",
+      "topics": {
+        "AI/ML": 4.0,
+        "Growth": 39.0,
+        "Product": 4.0,
+        "Leadership": 1.0,
+        "Design & UX": 11.0,
+        "Metrics": 38.0,
+        "Strategy": 43.0,
+        "Startups": 1.0,
+        "Go-to-Market": 9.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "title": "Marc Andreessen: The real AI boom hasn\u2019t even started yet",
+      "guest": "Marc Andreessen",
+      "filename": "podcasts/marc-andreessen.md",
+      "topics": {
+        "AI/ML": 9.0,
+        "Growth": 2.0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 6.0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2026-02-01",
+      "title": "A child psychologist\u2019s guide to working with difficult adults | Dr. Becky Kennedy",
+      "guest": "Dr. Becky Kennedy",
+      "filename": "podcasts/dr-becky-kennedy.md",
+      "topics": {
+        "AI/ML": 0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 2.0,
+        "Metrics": 1.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2026-02-08",
+      "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
+      "guest": "Lazar Jovanovic",
+      "filename": "podcasts/lazar-jovanovic.md",
+      "topics": {
+        "AI/ML": 35.0,
+        "Growth": 1.0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 8.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 2.0,
+        "Engineering": 7.0
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "title": "Sherwin Wu V2",
+      "guest": "Sherwin Wu V2",
+      "filename": "podcasts/sherwin-wu-v2.md",
+      "topics": {
+        "AI/ML": 9.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 0,
+        "Metrics": 0,
+        "Strategy": 3.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 28.0
+      }
+    },
+    {
+      "date": "2026-02-15",
+      "title": "Sequoia CEO coach: Why it\u2019s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+      "guest": "Brian Halligan",
+      "filename": "podcasts/brian-halligan.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 2.0,
+        "Product": 2.0,
+        "Leadership": 1.0,
+        "Design & UX": 1.0,
+        "Metrics": 8.0,
+        "Strategy": 1.0,
+        "Startups": 0,
+        "Go-to-Market": 7.0,
+        "Engineering": 3.0
+      }
+    },
+    {
+      "date": "2026-02-19",
+      "title": "Boris Cherny",
+      "guest": "Boris Cherny",
+      "filename": "podcasts/boris-cherny.md",
+      "topics": {
+        "AI/ML": 9.0,
+        "Growth": 0,
+        "Product": 1.0,
+        "Leadership": 3.0,
+        "Design & UX": 4.0,
+        "Metrics": 0,
+        "Strategy": 5.0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 4.0
+      }
+    },
+    {
+      "date": "2026-02-26",
+      "title": "Jeetu Patel",
+      "guest": "Jeetu Patel",
+      "filename": "podcasts/jeetu-patel.md",
+      "topics": {
+        "AI/ML": 1.0,
+        "Growth": 2.0,
+        "Product": 1.0,
+        "Leadership": 2.0,
+        "Design & UX": 0,
+        "Metrics": 2.0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 1.0,
+        "Engineering": 0
+      }
+    },
+    {
+      "date": "2026-03-01",
+      "title": "Jenny Wen",
+      "guest": "Jenny Wen",
+      "filename": "podcasts/jenny-wen.md",
+      "topics": {
+        "AI/ML": 2.0,
+        "Growth": 0,
+        "Product": 0,
+        "Leadership": 0,
+        "Design & UX": 21.0,
+        "Metrics": 0,
+        "Strategy": 0,
+        "Startups": 0,
+        "Go-to-Market": 0,
+        "Engineering": 0
+      }
+    }
+  ]
+}
