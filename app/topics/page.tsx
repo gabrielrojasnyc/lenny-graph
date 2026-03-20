@@ -15,19 +15,18 @@ import { cn } from "@/lib/utils";
 import { TrendingUp } from "lucide-react";
 
 export default function TopicsPage() {
-  const [rawData, setRawData] = useState<TopicTimelineData | null>(null);
+  const [timelineData, setTimelineData] = useState<TopicTimelineData | null>(null);
   const [loading, setLoading] = useState(true);
   const [visibleTopics, setVisibleTopics] = useState<string[]>([]);
   const [hoveredTopic, setHoveredTopic] = useState<string | null>(null);
-  const [hoveredEpisode, setHoveredEpisode] =
-    useState<TopicTimelineEntry | null>(null);
+  const [hoveredEpisode, setHoveredEpisode] = useState<TopicTimelineEntry | null>(null);
 
   useEffect(() => {
     loadTopicTimeline()
-      .then((timelineData) => {
-        setRawData(timelineData);
-        if (timelineData.categories) {
-          setVisibleTopics(timelineData.categories);
+      .then((result) => {
+        setTimelineData(result);
+        if (result.categories) {
+          setVisibleTopics(result.categories);
         }
       })
       .finally(() => setLoading(false));
@@ -47,7 +46,11 @@ export default function TopicsPage() {
     []
   );
 
-  if (loading || !rawData) {
+  // Extract episodes array from the data structure
+  const episodes: TopicTimelineEntry[] = timelineData?.episodes ?? [];
+  const categories: string[] = timelineData?.categories ?? [];
+
+  if (loading || !timelineData) {
     return (
       <div className="flex-1 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
@@ -59,9 +62,6 @@ export default function TopicsPage() {
       </div>
     );
   }
-
-  const episodes: TopicTimelineEntry[] = rawData.episodes || [];
-  const categories: string[] = rawData.categories || [];
 
   return (
     <>
@@ -128,7 +128,7 @@ export default function TopicsPage() {
               <div className="flex items-center gap-2 mb-2">
                 <div
                   className="w-3 h-3 rounded-full"
-                  style={{ backgroundColor: TOPIC_COLORS[hoveredTopic] || "#888" }}
+                  style={{ backgroundColor: TOPIC_COLORS[hoveredTopic] ?? "#888" }}
                 />
                 <span className="label-large text-[var(--md-on-surface)]">
                   {hoveredTopic}
@@ -150,7 +150,7 @@ export default function TopicsPage() {
                   Topic Weight
                 </p>
                 <p className="headline-small text-[var(--md-on-surface)]">
-                  {(hoveredEpisode.topics[hoveredTopic] || 0).toFixed(1)}
+                  {(hoveredEpisode.topics[hoveredTopic] ?? 0).toFixed(1)}
                 </p>
               </div>
             </Card>
@@ -162,7 +162,7 @@ export default function TopicsPage() {
           <div className="flex flex-wrap gap-6">
             {visibleTopics.slice(0, 4).map((topic) => {
               const totalWeight = episodes.reduce(
-                (sum, ep) => sum + (ep.topics[topic] || 0),
+                (sum, ep) => sum + (ep.topics[topic] ?? 0),
                 0
               );
               const avgWeight = episodes.length > 0 ? totalWeight / episodes.length : 0;
@@ -171,7 +171,7 @@ export default function TopicsPage() {
                 <div key={topic} className="flex items-center gap-2">
                   <div
                     className="w-3 h-3 rounded-full"
-                    style={{ backgroundColor: TOPIC_COLORS[topic] || "#888" }}
+                    style={{ backgroundColor: TOPIC_COLORS[topic] ?? "#888" }}
                   />
                   <span className="label-medium text-[var(--md-on-surface-variant)]">
                     {topic}:
