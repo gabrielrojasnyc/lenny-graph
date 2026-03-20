@@ -32,15 +32,8 @@ export default function GraphPage() {
   const [searchHighlight, setSearchHighlight] = useState<string | null>(null);
 
   useEffect(() => {
-    console.log("[v0] GraphPage mounted, loading data...");
     loadGraphData()
-      .then((graphData) => {
-        console.log("[v0] Graph data loaded:", graphData?.nodes?.length, "nodes");
-        setData(graphData);
-      })
-      .catch((err) => {
-        console.error("[v0] Error loading graph data:", err);
-      })
+      .then(setData)
       .finally(() => setLoading(false));
   }, []);
 
