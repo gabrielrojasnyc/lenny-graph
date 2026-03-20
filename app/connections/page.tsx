@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
-import { AppShell } from "@/components/app-shell";
 import { TopAppBar } from "@/components/ui/top-app-bar";
 import { SearchInput } from "@/components/ui/search-input";
 import { Card } from "@/components/ui/card";
@@ -81,21 +80,19 @@ export default function ConnectionsPage() {
 
   if (loading) {
     return (
-      <AppShell>
-        <div className="flex-1 flex items-center justify-center">
-          <div className="flex flex-col items-center gap-4">
-            <div className="w-12 h-12 rounded-full border-4 border-[var(--md-primary)] border-t-transparent animate-spin" />
-            <p className="body-large text-[var(--md-on-surface-variant)]">
-              Loading data...
-            </p>
-          </div>
+      <div className="flex-1 flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-12 h-12 rounded-full border-4 border-[var(--md-primary)] border-t-transparent animate-spin" />
+          <p className="body-large text-[var(--md-on-surface-variant)]">
+            Loading data...
+          </p>
         </div>
-      </AppShell>
+      </div>
     );
   }
 
   return (
-    <AppShell>
+    <>
       <TopAppBar
         title="Six Degrees"
         subtitle="Find connections between any two entities"
@@ -225,6 +222,6 @@ export default function ConnectionsPage() {
           )}
         </div>
       </div>
-    </AppShell>
+    </>
   );
 }
