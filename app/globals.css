@@ -1,0 +1,342 @@
+@import "tailwindcss";
+
+/* ========================================
+   Material Design 3 - Design Tokens
+   ======================================== */
+
+@theme inline {
+  /* MD3 Typography Scale */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", monospace;
+
+  /* MD3 Shape Scale */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* MD3 Elevation Shadows */
+  --shadow-1: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 2px 6px 2px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-3: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-4: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.3);
+  --shadow-5: 0 8px 12px 6px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.3);
+
+  /* Entity Colors (consistent across themes) */
+  --color-entity-person: #818CF8;
+  --color-entity-company: #34D399;
+  --color-entity-book: #FBBF24;
+  --color-entity-concept: #F472B6;
+
+  /* Topic Colors */
+  --color-topic-ai: #818CF8;
+  --color-topic-growth: #34D399;
+  --color-topic-product: #60A5FA;
+  --color-topic-leadership: #F472B6;
+  --color-topic-culture: #FBBF24;
+  --color-topic-strategy: #A78BFA;
+  --color-topic-hiring: #2DD4BF;
+  --color-topic-metrics: #FB923C;
+  --color-topic-psychology: #E879F9;
+  --color-topic-fundraising: #4ADE80;
+}
+
+:root {
+  /* MD3 Light Theme */
+  --md-primary: #6750A4;
+  --md-on-primary: #FFFFFF;
+  --md-primary-container: #EADDFF;
+  --md-on-primary-container: #21005D;
+
+  --md-secondary: #625B71;
+  --md-on-secondary: #FFFFFF;
+  --md-secondary-container: #E8DEF8;
+  --md-on-secondary-container: #1D192B;
+
+  --md-tertiary: #7D5260;
+  --md-on-tertiary: #FFFFFF;
+  --md-tertiary-container: #FFD8E4;
+  --md-on-tertiary-container: #31111D;
+
+  --md-surface: #FEF7FF;
+  --md-surface-dim: #DED8E1;
+  --md-surface-bright: #FEF7FF;
+  --md-surface-container-lowest: #FFFFFF;
+  --md-surface-container-low: #F7F2FA;
+  --md-surface-container: #F3EDF7;
+  --md-surface-container-high: #ECE6F0;
+  --md-surface-container-highest: #E6E0E9;
+
+  --md-on-surface: #1D1B20;
+  --md-on-surface-variant: #49454F;
+  --md-outline: #79747E;
+  --md-outline-variant: #CAC4D0;
+
+  --md-inverse-surface: #322F35;
+  --md-inverse-on-surface: #F5EFF7;
+  --md-inverse-primary: #D0BCFF;
+
+  --md-error: #B3261E;
+  --md-on-error: #FFFFFF;
+  --md-error-container: #F9DEDC;
+  --md-on-error-container: #410E0B;
+
+  /* Semantic mappings */
+  --background: var(--md-surface);
+  --foreground: var(--md-on-surface);
+  --muted: var(--md-surface-container-high);
+  --muted-foreground: var(--md-on-surface-variant);
+  --card: var(--md-surface-container-low);
+  --card-foreground: var(--md-on-surface);
+  --border: var(--md-outline-variant);
+  --input: var(--md-surface-container-highest);
+  --ring: var(--md-primary);
+  --primary: var(--md-primary);
+  --primary-foreground: var(--md-on-primary);
+  --secondary: var(--md-secondary);
+  --secondary-foreground: var(--md-on-secondary);
+  --accent: var(--md-tertiary);
+  --accent-foreground: var(--md-on-tertiary);
+}
+
+.dark {
+  /* MD3 Dark Theme */
+  --md-primary: #D0BCFF;
+  --md-on-primary: #381E72;
+  --md-primary-container: #4F378B;
+  --md-on-primary-container: #EADDFF;
+
+  --md-secondary: #CCC2DC;
+  --md-on-secondary: #332D41;
+  --md-secondary-container: #4A4458;
+  --md-on-secondary-container: #E8DEF8;
+
+  --md-tertiary: #EFB8C8;
+  --md-on-tertiary: #492532;
+  --md-tertiary-container: #633B48;
+  --md-on-tertiary-container: #FFD8E4;
+
+  --md-surface: #141218;
+  --md-surface-dim: #141218;
+  --md-surface-bright: #3B383E;
+  --md-surface-container-lowest: #0F0D13;
+  --md-surface-container-low: #1D1B20;
+  --md-surface-container: #211F26;
+  --md-surface-container-high: #2B2930;
+  --md-surface-container-highest: #36343B;
+
+  --md-on-surface: #E6E0E9;
+  --md-on-surface-variant: #CAC4D0;
+  --md-outline: #938F99;
+  --md-outline-variant: #49454F;
+
+  --md-inverse-surface: #E6E0E9;
+  --md-inverse-on-surface: #322F35;
+  --md-inverse-primary: #6750A4;
+
+  --md-error: #F2B8B5;
+  --md-on-error: #601410;
+  --md-error-container: #8C1D18;
+  --md-on-error-container: #F9DEDC;
+
+  /* Semantic mappings */
+  --background: var(--md-surface);
+  --foreground: var(--md-on-surface);
+  --muted: var(--md-surface-container-high);
+  --muted-foreground: var(--md-on-surface-variant);
+  --card: var(--md-surface-container);
+  --card-foreground: var(--md-on-surface);
+  --border: var(--md-outline-variant);
+  --input: var(--md-surface-container-highest);
+  --ring: var(--md-primary);
+  --primary: var(--md-primary);
+  --primary-foreground: var(--md-on-primary);
+  --secondary: var(--md-secondary);
+  --secondary-foreground: var(--md-on-secondary);
+  --accent: var(--md-tertiary);
+  --accent-foreground: var(--md-on-tertiary);
+}
+
+/* ========================================
+   Base Styles
+   ======================================== */
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* MD3 Typography Classes */
+.display-large {
+  font-size: 57px;
+  line-height: 64px;
+  letter-spacing: -0.25px;
+  font-weight: 400;
+}
+
+.display-medium {
+  font-size: 45px;
+  line-height: 52px;
+  font-weight: 400;
+}
+
+.display-small {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+.headline-large {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.headline-medium {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.headline-small {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.title-large {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.title-medium {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+
+.title-small {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+.body-large {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.body-medium {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
+.body-small {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+
+.label-large {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+.label-medium {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.label-small {
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* MD3 State Layer */
+.state-layer {
+  position: relative;
+  overflow: hidden;
+}
+
+.state-layer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 200ms ease;
+  pointer-events: none;
+}
+
+.state-layer:hover::before {
+  opacity: 0.08;
+  background: currentColor;
+}
+
+.state-layer:focus-visible::before {
+  opacity: 0.12;
+  background: currentColor;
+}
+
+.state-layer:active::before {
+  opacity: 0.12;
+  background: currentColor;
+}
+
+/* Theme transition */
+* {
+  transition-property: background-color, border-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--md-outline-variant);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-outline);
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--md-primary);
+  outline-offset: 2px;
+}
