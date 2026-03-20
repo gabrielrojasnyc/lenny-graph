@@ -12,7 +12,7 @@ import {
   PathsIndex,
   loadGraphData,
   loadPathsIndex,
-  formatEntityName,
+  getNodeName,
 } from "@/lib/graph-data";
 import { findShortestPath, getRandomPair } from "@/lib/pathfinding";
 import { cn } from "@/lib/utils";
@@ -47,11 +47,11 @@ export default function ConnectionsPage() {
     if (!data || query.length < 2) return [];
     const q = query.toLowerCase();
     return data.nodes
-      .filter((node) => formatEntityName(node.id).toLowerCase().includes(q))
+      .filter((node) => getNodeName(node).toLowerCase().includes(q))
       .slice(0, 8)
       .map((node) => ({
         id: node.id,
-        label: formatEntityName(node.id),
+        label: getNodeName(node),
         type: node.type,
       }));
   };
@@ -70,8 +70,10 @@ export default function ConnectionsPage() {
       const [start, end] = pair;
       setStartNode(start);
       setEndNode(end);
-      setStartQuery(formatEntityName(start));
-      setEndQuery(formatEntityName(end));
+      const startNodeData = nodeMap.get(start);
+      const endNodeData = nodeMap.get(end);
+      setStartQuery(startNodeData ? getNodeName(startNodeData) : start);
+      setEndQuery(endNodeData ? getNodeName(endNodeData) : end);
       const pathResult = findShortestPath(start, end, pathsIndex);
       setResult(pathResult.path);
     }
@@ -138,7 +140,8 @@ export default function ConnectionsPage() {
                 }}
                 onSelect={(id) => {
                   setStartNode(id);
-                  setStartQuery(formatEntityName(id));
+                  const node = nodeMap.get(id);
+                  setStartQuery(node ? getNodeName(node) : id);
                 }}
                 suggestions={getSuggestions(startQuery)}
                 placeholder="Search for a node..."
@@ -156,7 +159,8 @@ export default function ConnectionsPage() {
                 }}
                 onSelect={(id) => {
                   setEndNode(id);
-                  setEndQuery(formatEntityName(id));
+                  const node = nodeMap.get(id);
+                  setEndQuery(node ? getNodeName(node) : id);
                 }}
                 suggestions={getSuggestions(endQuery)}
                 placeholder="Search for a node..."

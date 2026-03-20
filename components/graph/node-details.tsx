@@ -7,7 +7,7 @@ import {
   GraphNode,
   EntityType,
   ENTITY_COLORS,
-  formatEntityName,
+  getNodeName,
 } from "@/lib/graph-data";
 
 const EntityIcon = ({ type }: { type: EntityType }) => {
@@ -86,7 +86,7 @@ export function NodeDetails({
         </div>
         <div className="flex-1 min-w-0">
           <h3 className="title-medium text-[var(--md-on-surface)] truncate">
-            {formatEntityName(node.id)}
+            {getNodeName(node)}
           </h3>
           <p className="label-medium text-[var(--md-on-surface-variant)] capitalize">
             {node.type}
@@ -150,7 +150,7 @@ export function NodeDetails({
                       style={{ backgroundColor: ENTITY_COLORS[conn.node!.type] }}
                     />
                     <span className="body-medium text-[var(--md-on-surface)] truncate flex-1">
-                      {formatEntityName(conn.id)}
+                      {getNodeName(conn.node!)}
                     </span>
                     <span className="label-small text-[var(--md-on-surface-variant)]">
                       {conn.weight}

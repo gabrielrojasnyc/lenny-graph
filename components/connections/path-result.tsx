@@ -7,7 +7,7 @@ import {
   GraphNode,
   EntityType,
   ENTITY_COLORS,
-  formatEntityName,
+  getNodeName,
 } from "@/lib/graph-data";
 import { User, Building2, BookOpen, Lightbulb, ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -109,7 +109,7 @@ export function PathResult({ path, nodeMap }: PathResultProps) {
                 </div>
                 <div>
                   <p className="title-small text-[var(--md-on-surface)]">
-                    {formatEntityName(nodeId)}
+                    {node ? getNodeName(node) : nodeId}
                   </p>
                   <p className="label-small text-[var(--md-on-surface-variant)] capitalize">
                     {node?.type || "Unknown"}

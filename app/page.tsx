@@ -12,10 +12,10 @@ import {
   GraphData,
   EntityType,
   loadGraphData,
-  formatEntityName,
+  getNodeName,
 } from "@/lib/graph-data";
 import { cn } from "@/lib/utils";
-import { RotateCcw, ZoomIn, ZoomOut } from "lucide-react";
+import { RotateCcw } from "lucide-react";
 
 export default function GraphPage() {
   const [data, setData] = useState<GraphData | null>(null);
@@ -42,13 +42,13 @@ export default function GraphPage() {
     const query = searchQuery.toLowerCase();
     return data.nodes
       .filter((node) => {
-        const name = formatEntityName(node.id).toLowerCase();
+        const name = getNodeName(node).toLowerCase();
         return name.includes(query);
       })
       .slice(0, 10)
       .map((node) => ({
         id: node.id,
-        label: formatEntityName(node.id),
+        label: getNodeName(node),
         type: node.type,
       }));
   }, [data, searchQuery]);

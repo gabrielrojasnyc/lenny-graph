@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "@/lib/utils";
 import { Chip, ChipGroup } from "@/components/ui/chip";
 import { TOPIC_COLORS } from "@/lib/graph-data";
 
@@ -18,7 +17,7 @@ export function TopicLegend({
   className,
 }: TopicLegendProps) {
   return (
-    <ChipGroup className={cn("flex-wrap", className)}>
+    <ChipGroup className={`flex-wrap ${className || ""}`}>
       {allTopics.map((topic) => (
         <Chip
           key={topic}

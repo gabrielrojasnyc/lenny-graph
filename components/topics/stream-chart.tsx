@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import { TopicTimelineEntry, TOPIC_COLORS } from "@/lib/graph-data";
-import { cn } from "@/lib/utils";
 
 interface StreamChartProps {
   data: TopicTimelineEntry[];

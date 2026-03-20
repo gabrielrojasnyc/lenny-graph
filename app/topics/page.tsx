@@ -12,7 +12,7 @@ import {
   loadTopicTimeline,
 } from "@/lib/graph-data";
 import { cn } from "@/lib/utils";
-import { BarChart3, TrendingUp } from "lucide-react";
+import { TrendingUp } from "lucide-react";
 
 const allTopics = Object.keys(TOPIC_COLORS);
 

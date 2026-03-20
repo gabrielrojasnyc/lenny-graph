@@ -5,10 +5,9 @@ import * as d3 from "d3";
 import {
   GraphData,
   GraphNode,
-  GraphEdge,
   EntityType,
   ENTITY_COLORS,
-  formatEntityName,
+  getNodeName,
 } from "@/lib/graph-data";
 
 interface SimNode extends d3.SimulationNodeDatum, GraphNode {
@@ -231,7 +230,7 @@ export function ForceGraph({
       .attr("font-size", "11px")
       .attr("font-weight", 500)
       .attr("pointer-events", "none")
-      .text((d) => formatEntityName(d.id));
+      .text((d) => getNodeName(d));
 
     // Drag behavior
     const drag = d3
