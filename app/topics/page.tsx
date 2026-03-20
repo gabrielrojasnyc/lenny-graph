@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils";
 import { TrendingUp } from "lucide-react";
 
 export default function TopicsPage() {
-  const [data, setData] = useState<TopicTimelineData | null>(null);
+  const [rawData, setRawData] = useState<TopicTimelineData | null>(null);
   const [loading, setLoading] = useState(true);
   const [visibleTopics, setVisibleTopics] = useState<string[]>([]);
   const [hoveredTopic, setHoveredTopic] = useState<string | null>(null);
@@ -25,8 +25,7 @@ export default function TopicsPage() {
   useEffect(() => {
     loadTopicTimeline()
       .then((timelineData) => {
-        setData(timelineData);
-        // Initialize visible topics from actual data categories
+        setRawData(timelineData);
         if (timelineData.categories) {
           setVisibleTopics(timelineData.categories);
         }
@@ -48,7 +47,7 @@ export default function TopicsPage() {
     []
   );
 
-  if (loading || !data) {
+  if (loading || !rawData) {
     return (
       <div className="flex-1 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
@@ -61,8 +60,8 @@ export default function TopicsPage() {
     );
   }
 
-  const episodes = data.episodes || [];
-  const categories = data.categories || [];
+  const episodes: TopicTimelineEntry[] = rawData.episodes || [];
+  const categories: string[] = rawData.categories || [];
 
   return (
     <>
