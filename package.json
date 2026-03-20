@@ -1,0 +1,15 @@
+{
+  "name": "lenny-graph",
+  "version": "2.0.0",
+  "description": "The Lenny Graph — entity extraction and visualization for Lenny's Podcast & Newsletter",
+  "type": "module",
+  "scripts": {
+    "extract": "npx tsx extract.ts",
+    "extras": "npx tsx generate_extras.ts",
+    "build": "npx tsx extract.ts && npx tsx generate_extras.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

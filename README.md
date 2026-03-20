@@ -1,83 +1,77 @@
-# The Lenny Graph 🔮
+# Lenny's Data (Free public starter pack)
 
-An interactive knowledge graph of [Lenny's Podcast](https://www.lennyspodcast.com/) — mapping people, companies, books, and concepts across 289 episodes, revealing how ideas propagate, who influences whom, and how the podcast's DNA has evolved over 4 years.
+A comprehensive archive of [Lenny's Podcast](https://www.lennyspodcast.com) transcripts and [Lenny's Newsletter](https://www.lennysnewsletter.com) posts, in AI-friendly markdown, to inspire you to build something with this unique dataset.
 
-**530 nodes • 6,765 connections • 289 episodes • 349 newsletters**
+This repo is the public starter pack with a limited number of transcripts and posts. To get the full archives, see below.
 
-## 🕸️ The Graph
+## What is included
 
-![The Graph](screenshot-graph.png)
+- Free starter pack: **10 newsletter posts** and **50 podcast transcripts** in this public repo
+- Free subscribers can also connect to the starter MCP at [lennysdata.com](https://www.lennysdata.com)
+- Paid archive: **349 newsletter posts** and **289 podcast transcripts**, plus full MCP access and a private GitHub repo at [lennysdata.com](https://www.lennysdata.com)
+- All files are plain markdown and easy to use with Claude Code, Cursor, and other AI tools
+- `index.json` includes titles, dates, word counts, newsletter subtitles when available, and podcast guests/descriptions.
 
-An interactive force-directed network of every person, company, book, and concept in Lenny's Podcast. Zoom in to explore clusters. Click any node for details. Filter by type, search by name, slide the timeline.
+## Repo layout
 
-- **326 people** — all podcast guests plus key figures mentioned (Steve Jobs, Brian Chesky, Sam Altman...)
-- **74 companies** — Google, Airbnb, Meta, OpenAI, Stripe, and 69 more
-- **87 concepts** — product-market fit, retention, vibe coding, onboarding, pricing...
-- **43 books** — Zero to One, Inspired, Working Backwards, The Lean Startup...
+- `index.json` — source metadata for all episodes
+- `newsletters/` — 349 newsletter posts (markdown)
+- `podcasts/` — 289 podcast transcripts (markdown)
+- `extract.ts` — entity extraction pipeline (TypeScript)
+- `generate_extras.ts` — topic timeline + paths index generator (TypeScript)
+- `index.html` — D3.js interactive visualization (3 tabs)
+- `graph.json` — extracted graph (nodes + edges)
+- `topic_timeline.json` — per-episode topic vectors
+- `paths_index.json` — adjacency list for BFS pathfinding
+- `LICENSE.md`
 
-## 🔗 Six Degrees of Lenny's Podcast
-
-![Six Degrees](screenshot-degrees-result.png)
-
-Pick any two entities and find the shortest path between them through the knowledge graph. Brian Chesky to Scott Wu? Three hops: Brian Chesky → Brian Halligan → Google → Scott Wu.
-
-- Searchable autocomplete for all 530 nodes
-- Works across entity types (people ↔ companies ↔ concepts ↔ books)
-- "Random Pair" button for serendipity
-- Animated path visualization with hop count
-
-## 🧬 Topic DNA
-
-![Topic DNA](screenshot-dna.png)
-
-A streamgraph showing how Lenny's podcast topics evolved from 2022 to 2026. Watch AI/ML explode in late 2024, see Growth and Product Management ebb and flow, trace the rise of Engineering as a topic.
-
-- 10 macro topic categories extracted from concept mentions per episode
-- Rolling-window smoothed for readability
-- Interactive hover for episode details
-- Click legend to isolate topics
-
-## Quick Start
+## The Lenny Graph — Build & Run
 
 ```bash
-git clone https://github.com/nagomistudio/lenny-graph.git
-cd lenny-graph
-open index.html
+npm install
+npm run build       # generates graph.json, topic_timeline.json, paths_index.json
+open index.html     # view the interactive visualization
 ```
 
-That's it. Single HTML file, D3.js from CDN, no build step.
-
-## Rebuild from Source
-
-If you have the podcast transcripts from [lennysdata.com](https://lennysdata.com):
+Or run each step individually:
 
 ```bash
-# Place transcripts in podcasts/, newsletters in newsletters/, and index.json in root
-python3 extract.py           # Generates graph.json
-python3 generate_extras.py   # Generates topic_timeline.json + paths_index.json
-open index.html
+npm run extract     # generates graph.json
+npm run extras      # generates topic_timeline.json, paths_index.json
 ```
 
-The free starter pack has 50 episodes. Paid subscribers get the full 289 + 349 at [lennysdata.com](https://lennysdata.com).
+Requires Node.js 18+ and uses [tsx](https://github.com/privatenumber/tsx) for TypeScript execution.
 
-## How It Works
+## Quick Start (data only)
 
-**Entity Extraction** (`extract.py`) — Reads all transcripts and newsletters. Identifies people, companies, concepts, and books using guest metadata, curated seed lists, and contextual regex patterns. Builds weighted edges from co-occurrence, direct mention, and cross-episode references. Filters noise.
+1. Clone with `git clone https://github.com/LennysNewsletter/lennys-newsletterpodcastdata.git`.
+2. If you prefer a ZIP instead of cloning, sign in at [https://www.lennysdata.com](https://www.lennysdata.com) and download it there.
+3. If you want starter MCP access or the full archive, sign in at [https://www.lennysdata.com](https://www.lennysdata.com).
 
-**Topic Classification** (`generate_extras.py`) — Maps concept entities into 10 macro categories. Counts per-episode topic vectors. Applies rolling-window smoothing. Builds adjacency list for BFS pathfinding.
+## A few example projects built with this dataset
 
-**Visualization** (`index.html`) — Pure HTML + CSS + D3.js. Force-directed graph with clustering, BFS pathfinder, and stacked area streamgraph. Dark theme, smooth animations, lazy tab initialization for performance.
+- [Tiny Stakeholders](https://www.tinystakeholders.com/) by [Ondrej Machart](https://www.linkedin.com/in/ondrejmachart/): applies product-management lessons from the podcast archive to parenting.
+- [Lenny Playbook](https://lilys.ai/collections/141200?s=1) by LilysAI: turns podcast transcripts into structured notes, visual summaries, and a chat interface.
+- [Learn from Lenny](https://x.com/learnfromlenny) by [@IamAdiG](https://x.com/IamAdiG): an AI agent on X that answers with product advice grounded in the podcast archive.
+- [Lenny Skills Database](https://refoundai.com/lenny-skills/) by Refound AI: a searchable database of practical skills extracted from the podcast archive.
+- [Lenny's Frameworks](https://lennys-frameworks.vercel.app/) by [Rison Simon](https://x.com/RisonSimon): a collection of frameworks and mental models distilled from Lenny's Podcast.
+- [Lenny Listens](https://lenny-listens.vercel.app/): uses Lenny's interviewing style to generate AI-led customer interviews.
+- [Lenny's Advice Arena](https://lennysadvicearena.lovable.app/): an interactive way to explore product advice from the archive.
+- [Lenny Gallery](https://lennygallery.manus.space/) by Alan Chan: visual infographic summaries of standout episodes.
+- [Lenny Antimemes](https://lenny.antimeme.co) by [@antimemetic_](https://x.com/antimemetic_): highlights important ideas from guests that are easy to miss but worth remembering.
 
-## Tech Stack
+## Want the full dataset?
 
-- **Python 3** (stdlib only) — extraction and data generation
-- **D3.js v7** (CDN) — all three visualizations
-- **Vanilla HTML/CSS/JS** — no frameworks, no build tools
+Paid subscribers can sign in at [https://www.lennysdata.com](https://www.lennysdata.com) to get:
+
+- 349 newsletter posts
+- 289 podcast transcripts
+- newsletter posts published within the last 3 months are intentionally excluded from the archive
+- full MCP access
+- a private GitHub repo you can clone
+
+If you are not yet a paid subscriber, upgrade here: [https://www.lennysnewsletter.com/subscribe](https://www.lennysnewsletter.com/subscribe)
 
 ## License
 
-Code: MIT. Podcast content: [Lenny Rachitsky / Lenny's Newsletter](https://lennysdata.com).
-
----
-
-*Built for [Lenny's Data Challenge 2026](https://www.lennysnewsletter.com/p/how-i-built-lennyrpg) • Data from [lennysdata.com](https://lennysdata.com)*
+See `LICENSE.md` for usage terms.
